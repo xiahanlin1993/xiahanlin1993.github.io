@@ -389,7 +389,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.8k
+                    2.1k
                 </div>
                 
 
@@ -590,6 +590,46 @@ typora-root-url: ../
 <p><img src="/images/image-20210820095008002.png" alt="image-20210820095008002"></p>
 <p>总结以上，就是在每篇md文件中，开头设置<code>typora-root-url: ../</code>，然后设置偏好设置，就可以既实现typora本地实时预览和网上配图的完美结合。</p>
 <p>一次配置，永久实现，在<code>scaffolds</code>文件夹下的post.md，是每次hexo n 的默认模板，可以通过更改它，实现每次新建md文件，就已经配置好，然后在typora设置一下，就可以永久不用担心图片在博客中的现实问题。</p>
+<p>8.测试代码和公式支持</p>
+<pre class=" language-stata"><code class="language-stata">****  合并数据 ****
+
+use C:\Users\msi\Desktop\数据处理\asset.dta,replace
+merge m:m BankCode Date using C:\Users\msi\Desktop\数据处理\operation.dta,nogen
+merge m:m BankCode Date using C:\Users\msi\Desktop\数据处理\profit.dta,nogen
+merge m:m BankCode Date using C:\Users\msi\Desktop\数据处理\creditlossprepare.dta,nogen
+****  转换文字变量为数字变量和日期变量 ****
+
+destring BankCode,gen(Code)
+gen date = date(Date,"YMD")
+format date %td
+tsset Code date
+drop BankCode 
+drop Date
+label var Code 银行代码
+label var BankName 银行名称
+label var date 统计日期
+label var FCIC 手续费及佣金收入
+label var NIAPC 归属于母公司所有者的净利润
+label var BEPS 基本每股收益
+label var REV 营业收入
+label var TDepo 存款总额
+label var TLoan 贷款总额
+label var CptAdqRt "资本充足率(%)"
+label var NpfLnRt5 不良贷款比例
+label var NpfPpCvRt5 不良贷款拨备覆盖率
+label var CsIncRt "成本收入比(%)"
+label var TA 资产总计
+label var EAPC 归属于母公司所有者权益合计
+label var DdLnRsvfd "贷款呆帐准备金"
+
+
+****  导出为excel格式  ****
+export excel using "C:\Users\msi\Desktop\数据处理\年度数据.xls", sheetreplace firstrow(varlabels)
+</code></pre>
+<p>$$<br>\frac{x^2}{y^2}*z^2&#x3D;m^2+n^2<br>$$</p>
+<p>$y^2&#x3D;2$</p>
+<p>$y^2&#x3D;2$</p>
+<p>$$y^2&#x3D;3$$</p>
 
                 
             </div>
@@ -784,7 +824,7 @@ typora-root-url: ../
                         <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechatpay.jpg" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1088,32 +1128,44 @@ typora-root-url: ../
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/08/20/happy/">
+                <a href="/2021/08/23/shi-zheng-yan-jiu-fang-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="happy">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="实证研究方法">
                         
-                        <span class="card-title">happy</span>
+                        <span class="card-title">实证研究方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            摘要
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-20
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-23
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            夏汉林
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/" class="post-category">
+                                    研究方法
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/DID-PSM-RDD-ML-CI/">
+                        <span class="chip bg-color">DID PSM RDD ML CI</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1122,22 +1174,22 @@ typora-root-url: ../
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/20/di-jiu-pian-bo-ke/">
+                <a href="/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="第九篇博客">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="如何使用hexo+gitte+typora建立个人博客网站？">
                         
-                        <span class="card-title">第九篇博客</span>
+                        <span class="card-title">如何使用hexo+gitte+typora建立个人博客网站？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            摘要
+                            一、准备工作1.安装git在各大电脑管家安装（我是用的是联想自带的电脑管家），速度比较快一点，用git官方安装速度太慢，不建议。
                         
                     </div>
                     <div class="publish-info">
@@ -1152,6 +1204,7 @@ typora-root-url: ../
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -1316,6 +1369,13 @@ typora-root-url: ../
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 
