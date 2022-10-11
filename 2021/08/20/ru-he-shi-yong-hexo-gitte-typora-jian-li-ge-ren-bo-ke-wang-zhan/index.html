@@ -393,7 +393,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    3.5k
                 </div>
                 
 
@@ -774,6 +774,21 @@ tags:
 </code></pre>
 <p>官方的那个我总是编译出问题，所以下面给出方法二的效果：</p>
 <p><img src="/images/1548178854323.png" alt="1548178854323"></p>
+<h2 id="九、配置个性化域名"><a href="#九、配置个性化域名" class="headerlink" title="九、配置个性化域名"></a>九、配置个性化域名</h2><h1 id="配置个性化域名"><a href="#配置个性化域名" class="headerlink" title="配置个性化域名"></a>配置个性化域名</h1><p>一顿操作下来，打开我们的博客还是：<a target="_blank" rel="noopener" href="http://www.xxx.github.io/">www.xxx.github.io</a>，是不是很没有牌面？我们可以考虑购买一个专属域名，以后打开博客就是这样：<a target="_blank" rel="noopener" href="http://www.xxx.com/">www.xxx.com</a> 。</p>
+<p><a target="_blank" rel="noopener" href="https://www.aliyun.com/">阿里云</a>和<a target="_blank" rel="noopener" href="https://cloud.tencent.com/">腾讯云</a>都可以，我的是腾讯云，购买域名后首先需要添加解析：</p>
+<p><strong>方法一：</strong>点击添加记录，需要添加两个记录，两个记录类型都是 CNAME ，第一个主机记录为 @ ，第二个主机记录为 www，记录值都是填你自己的博客地址（比如我的是：muyiio.github.io），保存之后域名解析就完成了！</p>
+<p><strong>方法二：</strong>两个记录类型为 A ，第一个主机记录为 @ ，第二个主机记录为 www，记录值都为博客的 IP 地址，IP 地址可以 cmd 中输入 ping 你的博客地址 获得（比如我的：ping muyiio.github.io），保存之后域名解析就完成了！</p>
+<p>参考资料：</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/it_man/article/details/9017307">《域名解析中A记录、CNAME、MX记录、NS记录的区别和联系》</a></p>
+<p><strong>不管在哪个平台购买域名，操作都大同小异，这里说明两点</strong>：</p>
+<blockquote>
+<p>如果你填写的是没有www的，比如 muyio.com，那么无论是访问 <a target="_blank" rel="noopener" href="https://www.muyiio.com/">https://www.muyiio.com</a> 还是 <a target="_blank" rel="noopener" href="https://muyiio.com/">https://muyiio.com</a> ，都会自动跳转到 <a target="_blank" rel="noopener" href="https://muyiio.com/">https://muyiio.com</a>。</p>
+<p>如果你填写的是带www的，比如 <a target="_blank" rel="noopener" href="http://www.muyiio.com/">www.muyiio.com</a> ，那么无论是访问 <a target="_blank" rel="noopener" href="https://www.muyiio.com/">https://www.muyiio.com</a> 还是 <a target="_blank" rel="noopener" href="https://muyiio.com/">https://muyiio.com</a> ，都会自动跳转到 <a target="_blank" rel="noopener" href="http://www.imuyiio.com/">http://www.imuyiio.com</a>。</p>
+</blockquote>
+<p>然后打开你的github博客项目，点击settings，拉到下面Custom domain处，填上你自己的域名，保存就可以了。</p>
+<p>现在我们的项目根目录应该会出现一个名为CNAME的文件了。如果没有的话，打开你本地博客/source目录，我的是C:\Blog\Hexo\source，新建CNAME文件，（注意不要加.txt，没有任何后缀名！）。然后在里面写上你的域名，保存。最后运行hexo g、hexo d上传到github。</p>
+<p>现在就可以通过我们的个性化域名：<a target="_blank" rel="noopener" href="http://www.xxx.xn--comxxx-kr3e.com/">www.xxx.com、xxx.com</a>访问自己的博客了</p>
+<p><img src="/images/image-20221011183719730.png" alt="image-20221011183719730"></p>
 
                 
             </div>
