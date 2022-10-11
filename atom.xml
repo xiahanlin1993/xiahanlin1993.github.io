@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>夏汉林的个人博客</title>
+  
+  <subtitle>蓝天白云下的细羽鸽子</subtitle>
+  <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://xiahanlin1993.github.io/"/>
+  <updated>2022-10-11T12:42:57.657Z</updated>
+  <id>http://xiahanlin1993.github.io/</id>
+  
+  <author>
+    <name>夏汉林</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宏观金融</title>
+    <link href="http://xiahanlin1993.github.io/2021/08/24/hong-guan-jin-rong/"/>
+    <id>http://xiahanlin1993.github.io/2021/08/24/hong-guan-jin-rong/</id>
+    <published>2021-08-24T01:58:16.000Z</published>
+    <updated>2022-10-11T12:42:57.657Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>实证研究方法</title>
+    <link href="http://xiahanlin1993.github.io/2021/08/23/shi-zheng-yan-jiu-fang-fa/"/>
+    <id>http://xiahanlin1993.github.io/2021/08/23/shi-zheng-yan-jiu-fang-fa/</id>
+    <published>2021-08-23T06:30:47.000Z</published>
+    <updated>2022-10-09T14:27:05.505Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="研究方法" scheme="http://xiahanlin1993.github.io/categories/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="DID PSM RDD ML CI" scheme="http://xiahanlin1993.github.io/tags/DID-PSM-RDD-ML-CI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用hexo+gitte+typora建立个人博客网站？</title>
+    <link href="http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/"/>
+    <id>http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/</id>
+    <published>2021-08-19T17:30:32.000Z</published>
+    <updated>2022-10-11T12:42:53.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、准备工作&quot;&gt;&lt;a href=&quot;#一、准备工作&quot; class=&quot;headerlink&quot; title=&quot;一、准备工作&quot;&gt;&lt;/a&gt;一、准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-安装git&quot;&gt;&lt;a href=&quot;#1-安装git&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
