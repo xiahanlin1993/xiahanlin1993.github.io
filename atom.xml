@@ -6,7 +6,7 @@
   <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiahanlin1993.github.io/"/>
-  <updated>2023-02-14T07:12:12.587Z</updated>
+  <updated>2023-02-14T13:49:49.901Z</updated>
   <id>http://xiahanlin1993.github.io/</id>
   
   <author>
@@ -20,18 +20,27 @@
     <title>局部投影法</title>
     <link href="http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/"/>
     <id>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</id>
-    <published>2023-02-14T07:12:12.000Z</published>
-    <updated>2023-02-14T07:12:12.587Z</updated>
+    <published>2023-02-14T07:35:59.000Z</published>
+    <updated>2023-02-14T13:49:49.901Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;局部投影法被认为是VAR的改进，尤其是在得到脉冲响应函数方面。而脉冲响应函数主要被用于宏观经济学中的冲击响应分析（比如，提升利率对GDP的影响），通过画图可以直观地明白政策的效果。&lt;/p&gt;
+&lt;p&gt;局部投影法的优势在于可以不用像VAR一样对数个方程同时进行估计，而是可以根据需</summary>
+        
+      
     
     
     
-    <category term="默认" scheme="http://xiahanlin1993.github.io/categories/%E9%BB%98%E8%AE%A4/"/>
+    <category term="计量方法" scheme="http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/"/>
     
     
-    <category term="默认" scheme="http://xiahanlin1993.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
+    <category term="Local projection" scheme="http://xiahanlin1993.github.io/tags/Local-projection/"/>
+    
+    <category term="VAR" scheme="http://xiahanlin1993.github.io/tags/VAR/"/>
     
   </entry>
   

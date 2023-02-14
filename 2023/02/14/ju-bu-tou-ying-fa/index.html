@@ -394,8 +394,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E9%BB%98%E8%AE%A4/">
-                                <span class="chip bg-color">默认</span>
+                            <a href="/tags/Local-projection/">
+                                <span class="chip bg-color">Local projection</span>
+                            </a>
+                        
+                            <a href="/tags/VAR/">
+                                <span class="chip bg-color">VAR</span>
                             </a>
                         
                     </div>
@@ -406,8 +410,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E9%BB%98%E8%AE%A4/" class="post-category">
-                                默认
+                            <a href="/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/" class="post-category">
+                                计量方法
                             </a>
                         
                     </div>
@@ -428,7 +432,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4
+                    643
                 </div>
                 
 
@@ -445,8 +449,80 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><span id="more"></span>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2>
+                <p>局部投影法被认为是VAR的改进，尤其是在得到脉冲响应函数方面。而脉冲响应函数主要被用于宏观经济学中的冲击响应分析（比如，提升利率对GDP的影响），通过画图可以直观地明白政策的效果。</p>
+<p>局部投影法的优势在于可以不用像VAR一样对数个方程同时进行估计，而是可以根据需要灵活地设定和估计我们感兴趣的变量的响应函数；同时，通过引入高次项和其他控制变量，可以使得模型的预测更符合真实的情况；而且，局部投影法对于经济变量背后的data generating process （DGP）要求更低，即使我们不能准确变量真实的DGP，通过局部投影法得到的结果也是（更）稳健的。</p>
+<p>下面转引大森投研的PPT：</p>
+<p><img src="/images/image-20230214154548645.png" alt="image-20230214154548645"></p>
+<p><img src="/images/image-20230214154604602.png" alt="image-20230214154604602"></p>
+<p><img src="/images/image-20230214154615388.png" alt="image-20230214154615388"></p>
+<p><img src="/images/image-20230214154635261.png" alt="image-20230214154635261"></p>
+<p><img src="/images/image-20230214154645364.png" alt="image-20230214154645364"></p>
+<p><img src="/images/image-20230214154653375.png" alt="image-20230214154653375"></p>
+<p><img src="/images/image-20230214154705119.png" alt="image-20230214154705119"></p>
+<p><img src="/images/image-20230214154713192.png" alt="image-20230214154713192"></p>
+<p><img src="/images/image-20230214154728379.png" alt="image-20230214154728379"></p>
+<p><img src="/images/image-20230214154736079.png" alt="image-20230214154736079"></p>
+<p><img src="/images/image-20230214154746121.png" alt="image-20230214154746121"></p>
+<p><img src="/images/image-20230214154758118.png" alt="image-20230214154758118"></p>
+<p><img src="/images/image-20230214154805262.png" alt="image-20230214154805262"></p>
+<p><img src="/images/image-20230214171840477.png" alt="image-20230214171840477"></p>
+<p><img src="/images/image-20230214171847831.png" alt="image-20230214171847831"></p>
+<p><img src="/images/image-20230214171855712.png" alt="image-20230214171855712"></p>
+<p><img src="/images/image-20230214171906193.png" alt="image-20230214171906193"></p>
+<p><img src="/images/image-20230214171913496.png" alt="image-20230214171913496"></p>
+<p><img src="/images/image-20230214171920867.png" alt="image-20230214171920867"></p>
+<p><a target="_blank" rel="noopener" href="https://sites.google.com/site/oscarjorda/home/local-projections">Òscar Jordà</a></p>
+<p><strong>STATA code</strong></p>
+<ul>
+<li>simple time series example: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/15mu23rUs7yQgUwbDfii4htFELBSsggmu/view?usp=sharing">lp_example.do</a></li>
+<li>LPIV example:<a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U1QXJRw5XRW_tQzE2dBZ2GTDQl5uN7cB/view?usp=sharing"> lpiv_example.do</a>; .dta files needed: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U2Bq86BnkeI5Ncd7PZ2a68iC7Msqy-Ul/view?usp=sharing">lpiv_15Mar2022.dta</a> and <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U250PyE-uzofoZz4BtjB2jWtZuq1ojlr/view?usp=sharing">RR_monetary_shock_quarterly.dta</a></li>
+<li>panel data example: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1mTQOWZQQ6VgXM10-7sVfOiR_IxWX4Q9B/view?usp=sharing">lp_example_panel.do</a></li>
+<li><p><a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fonlinelibrary.wiley.com%2Faction%2FdownloadSupplement%3Fdoi%3D10.1111%2Fecoj.12332%26attachmentId%3D119217110&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0NEjAcpFoC8IxLdn9TGb4R">code</a> for <strong>inverse propensity score weighted - regression augmented LPs</strong> used in: <a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1111%2Fecoj.12332%2Fabstract&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2yJgsjHjkBu6Cb5XaQ-Qf3">The Time for Austerity: Estimating the Average Treatment Effect of Fiscal Policy</a>  <em>The Economic Journal,</em> 2016, 126(590): 219-255</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fonlinelibrary.wiley.com%2Fstore%2F10.1111%2Fjeea.12144%2Fasset%2Fsupinfo%2Fjeea12144-sup-0001-Replication.zip%3Fv%3D1%26s%3Dcf9c63f62c3237c793800e1da073f7442854a902&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2Az7j7mBE3f-qc-7KoG9_P">code</a> for <strong>stratified LPs</strong> used in: <a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1111%2Fjeea.12144%2Fabstract&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1R8wBqgiSxCBt3s6ak-Xgq">Sovereigns versus Banks: Credit, Crises, and Consequences</a>  <em>Journal of the European Economic Association,</em> 2016, 14(1): 45-79</p>
+</li>
+</ul>
+<p><strong>R code:</strong> package <em>lpirfs</em></p>
+<ul>
+<li>Code prepared by Philipp Adämmer. <a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fweb%2Fpackages%2Flpirfs%2Flpirfs.pdf&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0wE-B9OzXTPkmNHalQ6Fad">Here is a description of its capabilities</a></li>
+</ul>
+<p><strong>Silvia Miranda Agrippino’s MATLAB code for “The Transmission of Monetary Policy Shocks” (with G. Ricco).</strong> </p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fsilviamirandaagrippino.com%2Fcode-data&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1S96Z3Y0UqAtYfL__FIlDs">typical and Bayesian local projections available here</a></p>
+</li>
+<li><p><strong>IMPULSE RESPONSE FUNCTIONS: BVAR, LP, &amp; BLP</strong>—— <a href="\images\Direct and Iterated Methods for Impulse Responses theory and applications.pdf">ppt</a></p>
+<p>The folder contains <strong>replication files for</strong> <a target="_blank" rel="noopener" href="http://silviamirandaagrippino.com/s/MAIN_TransmissionMP-mnbl.pdf"><strong>Miranda-Agrippino &amp; Ricco (2016) “The Transmission of Monetary Policy Shocks”</strong></a>. The code estimates impulse response functions for a <strong>Bayesian Vector Autoregression with standard NIW priors</strong>, Local Projections, and <strong>Bayesian Local Projections</strong>. Identification can be one of either Cholesky or External Instruments (<strong>BSVAR-IV</strong> &amp; <strong>BLP-IV</strong>) </p>
+<p>🔸<a target="_blank" rel="noopener" href="http://silviamirandaagrippino.com/s/BLPreplication.zip">download BLP replication files (1.1 MB)</a></p>
+</li>
+</ul>
+<p><strong>replication code for “Impulse responses by smooth local projections” by Barnichon and Brownlees</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fdataverse.harvard.edu%2Fdataset.xhtml%3FpersistentId%3Ddoi%3A10.7910%2FDVN%2F8KQJBJ&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3_uVHWKVkvXAlWZhyNHLZh">code from the Review and Economic Statistics publication available here</a></li>
+</ul>
+<p><strong>Bayesian local projections</strong></p>
+<ul>
+<li>Amaze Lusompa has written a great paper on how to think about Bayesian local projections. <a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fuci.edu%2Famazelusompa%2Fresearch&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2crRuGVbeXloqpV8quEcKm">Check his research here</a></li>
+</ul>
+<p><strong>inference</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.mikkelpm.com/">Mikkel Plagborg-Møller</a> is doing great research on local projections. I particularly like his paper with <a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fwww.joseluismontielolea.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2VJvfG_ZkNfiUFBGSuQ1wK">José Luis Montiel Olea</a>. The paper “Local Projection Inference is Simpler and More Robust Than You Think” is <a target="_blank" rel="noopener" href="http://www.joseluismontielolea.com/lp_inference_ecta.pdf">available here</a></li>
+</ul>
+<p><strong>references</strong></p>
+<p>main reference: </p>
+<ul>
+<li><a href="/images/Estimation and Inference of Impulse Responses by Local Projections.pdf">Estimation and Inference of Impulse Responses by Local Projections</a> <em>American Economic Review 95(1), March 2005, 161-182</em> - Impulse Responses by Local Projections:  Practical Issues_<a href="/images/Local Projections OJorda-Impulse Responses by Local Projections -Practical Issues.pdf">PPT</a></li>
+</ul>
+<p>how to use IV methods for identification</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fwww.frbsf.org%2Feconomic-research%2Ffiles%2Fwp2017-02.pdf&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3xiepuWv6DodApLgHQsKEr">The effects of quasi-random monetary experiments</a> <em>Journal of Monetary Economics, 112: 22-40</em></li>
+</ul>
+<p><strong>some related papers</strong></p>
+<p>Luca Brugnolini: <a target="_blank" rel="noopener" href="https://lucabrugnolini.github.io/publication/about_local_projection_reliability.pdf">ABOUT LOCAL PROJECTION IMPULSE RESPONSE FUNCTION RELIABILITY</a></p>
+<p><strong>中文论文</strong>-local-projection</p>
+<p><a href="\images\local-projection-老龄化是否削弱了中国货币政策的“稳增长”效果？.docx">老龄化是否削弱了中国货币政策的“稳增长”效果？</a></p>
+<p><a href="\images\双支柱政策的时变效果及协调作用_王宇晴.pdf">双支柱政策的时变效果及协调作用_王宇晴</a></p>
+<p><a href="\images\基于局部投影的脉冲响应函数对我国货币政策非对称的再检验.pdf">基于局部投影的脉冲响应函数对我国货币政策非对称的再检验</a></p>
+
                 
             </div>
             <hr/>
@@ -510,8 +586,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E9%BB%98%E8%AE%A4/">
-                                    <span class="chip bg-color">默认</span>
+                                <a href="/tags/Local-projection/">
+                                    <span class="chip bg-color">Local projection</span>
+                                </a>
+                            
+                                <a href="/tags/VAR/">
+                                    <span class="chip bg-color">VAR</span>
                                 </a>
                             
                         </div>
@@ -972,8 +1052,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E9%BB%98%E8%AE%A4/" class="post-category">
-                                    默认
+                            <a href="/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/" class="post-category">
+                                    计量方法
                                 </a>
                             
                             
@@ -984,8 +1064,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%BB%98%E8%AE%A4/">
-                        <span class="chip bg-color">默认</span>
+                    <a href="/tags/Local-projection/">
+                        <span class="chip bg-color">Local projection</span>
+                    </a>
+                    
+                    <a href="/tags/VAR/">
+                        <span class="chip bg-color">VAR</span>
                     </a>
                     
                 </div>

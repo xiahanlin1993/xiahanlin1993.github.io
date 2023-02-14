@@ -11,6 +11,7 @@ http://xiahanlin1993.github.io/categories/index.html
 http://xiahanlin1993.github.io/2021/08/23/shi-zheng-yan-jiu-fang-fa/
 http://xiahanlin1993.github.io/
 http://xiahanlin1993.github.io/tags/DID-PSM-RDD-ML-CI/
-http://xiahanlin1993.github.io/tags/%E9%BB%98%E8%AE%A4/
+http://xiahanlin1993.github.io/tags/Local-projection/
+http://xiahanlin1993.github.io/tags/VAR/
 http://xiahanlin1993.github.io/categories/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/
-http://xiahanlin1993.github.io/categories/%E9%BB%98%E8%AE%A4/
+http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/
