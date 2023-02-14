@@ -6,7 +6,7 @@
   <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiahanlin1993.github.io/"/>
-  <updated>2022-10-11T12:42:57.657Z</updated>
+  <updated>2023-02-14T07:12:12.587Z</updated>
   <id>http://xiahanlin1993.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>局部投影法</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</id>
+    <published>2023-02-14T07:12:12.000Z</published>
+    <updated>2023-02-14T07:12:12.587Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="默认" scheme="http://xiahanlin1993.github.io/categories/%E9%BB%98%E8%AE%A4/"/>
+    
+    
+    <category term="默认" scheme="http://xiahanlin1993.github.io/tags/%E9%BB%98%E8%AE%A4/"/>
+    
+  </entry>
+  
+  <entry>
     <title>宏观金融</title>
     <link href="http://xiahanlin1993.github.io/2021/08/24/hong-guan-jin-rong/"/>
     <id>http://xiahanlin1993.github.io/2021/08/24/hong-guan-jin-rong/</id>
     <published>2021-08-24T01:58:16.000Z</published>
-    <updated>2022-10-11T12:42:57.657Z</updated>
+    <updated>2023-02-13T17:34:47.057Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;</summary>
