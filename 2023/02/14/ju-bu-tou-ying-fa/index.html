@@ -432,7 +432,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    660
+                    1.3k
                 </div>
                 
 
@@ -451,26 +451,58 @@
             <div id="articleContent">
                 <h3 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h3><p>局部投影法被认为是VAR的改进，尤其是在得到脉冲响应函数方面。而脉冲响应函数主要被用于宏观经济学中的冲击响应分析（比如，提升利率对GDP的影响），通过画图可以直观地明白政策的效果。</p>
 <p>局部投影法的优势在于可以不用像VAR一样对数个方程同时进行估计，而是可以根据需要灵活地设定和估计我们感兴趣的变量的响应函数；同时，通过引入高次项和其他控制变量，可以使得模型的预测更符合真实的情况；而且，局部投影法对于经济变量背后的data generating process （DGP）要求更低，即使我们不能准确变量真实的DGP，通过局部投影法得到的结果也是（更）稳健的。</p>
+<p>VAR模型与脉冲响应</p>
+<p>局部投影法是近年来新兴起的脉冲响应函数估计方法，简便、灵活、稳健的特性使其备受青睐。局部投影法多用于分析宏观冲击（政策）对微观层面的影响，也可以分析时间序列数据。局部投影法的功能强大，用起来却十分方便，我们可以直接在软件中使用简单的ols或者iv回归命令进行局部投影法估计。需要注意的是，局部投影法中的关键解释变量（宏观冲击）一般需要是使用其他技术（如SVAR等）得到的外生冲击。</p>
 <p>下面转引大森投研的PPT：</p>
+<p>从一个故事出发:预测2022年毕业时失业率…</p>
 <p><img src="/images/image-20230214154548645.png" alt=""></p>
 <p><img src="/images/image-20230214154604602.png" alt=""></p>
 <p><img src="/images/image-20230214154615388.png" alt=""></p>
+<p><strong>1、AR(1)模型</strong>：假设失业率仅与一个月前的失业率线性相关</p>
+<p><strong>2、AR(p)模型</strong>：放松假设到与前p个月的失业率线性相关</p>
 <p><img src="/images/image-20230214154635261.png" alt=""></p>
+<p><strong>3、VAR(p)模型</strong>：失业率、油价等一组变量取值与其前p个月的取值相关</p>
 <p><img src="/images/image-20230214154645364.png" alt=""></p>
+<p>应用VAR模型的假设：</p>
+<p>  1、误差项</p>
+<p>  2、不同情形下变量需要满足的条件</p>
 <p><img src="/images/image-20230214154653375.png" alt=""></p>
+<p>将VAR(p)压缩到VAR(1)</p>
 <p><img src="/images/image-20230214154705119.png" alt=""></p>
+<p>脉冲响应：油价的突然上涨对未来t期失业率产生的影响</p>
+<p>  1、迭代方程</p>
+<p>  2、取一维形式</p>
 <p><img src="/images/image-20230214154713192.png" alt=""></p>
 <p><img src="/images/image-20230214154728379.png" alt=""></p>
+<p><strong>局部投影法（LP）</strong></p>
+<p>使用LP方法的原因：</p>
+<p>  1、使用简单</p>
+<p>  2、对模型误设更稳健</p>
+<p>  3、可用于非线性识别中（VAR模型为线性估计）</p>
+<p>  4、不用确定和估计出未知的真实模型也可以处理脉冲响应</p>
 <p><img src="/images/image-20230214154736079.png" alt=""></p>
+<p>LP的数学定义</p>
 <p><img src="/images/image-20230214154746121.png" alt=""></p>
 <p><img src="/images/image-20230214154758118.png" alt=""></p>
+<p>VAR和LP的对比</p>
+<p>  1、预测误差</p>
+<p>  2、线性模型下脉冲响应的特征</p>
+<p>  3、LP方法的灵活性</p>
 <p><img src="/images/image-20230214154805262.png" alt=""></p>
 <p><img src="/images/image-20230214171840477.png" alt=""></p>
 <p><img src="/images/image-20230214171847831.png" alt=""></p>
 <p><img src="/images/image-20230214171855712.png" alt=""></p>
 <p><img src="/images/image-20230214171906193.png" alt=""></p>
+<p>特定情况下VAR与LP方法等价</p>
 <p><img src="/images/image-20230214171913496.png" alt=""></p>
 <p><img src="/images/image-20230214171920867.png" alt=""></p>
+<p>下面展示一个局部投影法的实例（来自于Morlacco &amp; Zeke 2021 JME，<a href="\image\Morlacco&amp;Zeke-Monetary Policy, Customer Capital, and Market Power.pdf">Monetary Policy, Customer Capital, and Market Power</a> ）</p>
+<p><img src="/images/image-20230214221239933.png" alt=""></p>
+<p>LP方法的控制变量选择</p>
+<p><img src="/images/image-20230214221331812.png" alt=""></p>
+<p>讨论</p>
+<p>1、VAR方法和LP方法本质相同。在时期较多的情况下，VAR与LP方法相近，并且LP方法拥有更好的性质；而在模型设定正确的情况下，VAR方法效率更高，脉冲响应结果也更平滑；</p>
+<p>2、LP方法可用于宏观冲击、公司金融等问题中，且LP方法与多期DID模型的思想相近。</p>
 <h3 id="二、论文和代码"><a href="#二、论文和代码" class="headerlink" title="二、论文和代码"></a>二、论文和代码</h3><p><a target="_blank" rel="noopener" href="https://sites.google.com/site/oscarjorda/home/local-projections">Òscar Jordà主页</a></p>
 <h4 id="（一）代码"><a href="#（一）代码" class="headerlink" title="（一）代码"></a>（一）代码</h4><p><strong>STATA code</strong></p>
 <ul>
@@ -1024,18 +1056,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/02/14/ju-bu-tou-ying-fa/">
+                <a href="/2023/02/14/svar-mo-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="局部投影法">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="SVAR模型">
                         
-                        <span class="card-title">局部投影法</span>
+                        <span class="card-title">SVAR模型</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1045,9 +1076,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-14
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-02-14
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1060,16 +1091,11 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Local-projection/">
-                        <span class="chip bg-color">Local projection</span>
-                    </a>
-                    
-                    <a href="/tags/VAR/">
-                        <span class="chip bg-color">VAR</span>
+                    <a href="/tags/SVAR/">
+                        <span class="chip bg-color">SVAR</span>
                     </a>
                     
                 </div>

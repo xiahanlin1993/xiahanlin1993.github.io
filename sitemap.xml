@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xiahanlin1993.github.io/2023/02/14/svar-mo-xing/</loc>
+    
+    <lastmod>2023-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</loc>
     
     <lastmod>2023-02-14</lastmod>
@@ -125,6 +134,13 @@
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/VAR/</loc>
+    <lastmod>2023-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/tags/SVAR/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

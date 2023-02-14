@@ -6,7 +6,7 @@
   <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiahanlin1993.github.io/"/>
-  <updated>2023-02-14T13:58:38.150Z</updated>
+  <updated>2023-02-14T15:23:54.069Z</updated>
   <id>http://xiahanlin1993.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SVAR模型</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/14/svar-mo-xing/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/14/svar-mo-xing/</id>
+    <published>2023-02-14T14:45:19.000Z</published>
+    <updated>2023-02-14T15:23:54.069Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;以下内容来自微信公众号《李力南以离开》&lt;/p&gt;
+&lt;p&gt;SVAR模型曾经是实证宏观经济学中最主要的方法之一，很可惜已经不再是目前最流行的方法了，因为局部投影方法(Local</summary>
+        
+      
+    
+    
+    
+    <category term="计量方法" scheme="http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="SVAR" scheme="http://xiahanlin1993.github.io/tags/SVAR/"/>
+    
+  </entry>
+  
+  <entry>
     <title>局部投影法</title>
     <link href="http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/"/>
     <id>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</id>
     <published>2023-02-14T07:35:59.000Z</published>
-    <updated>2023-02-14T13:58:38.150Z</updated>
+    <updated>2023-02-14T14:42:43.443Z</updated>
     
     
       
