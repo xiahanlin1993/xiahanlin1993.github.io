@@ -432,7 +432,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    643
+                    660
                 </div>
                 
 
@@ -449,30 +449,30 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>局部投影法被认为是VAR的改进，尤其是在得到脉冲响应函数方面。而脉冲响应函数主要被用于宏观经济学中的冲击响应分析（比如，提升利率对GDP的影响），通过画图可以直观地明白政策的效果。</p>
+                <h3 id="一、介绍"><a href="#一、介绍" class="headerlink" title="一、介绍"></a>一、介绍</h3><p>局部投影法被认为是VAR的改进，尤其是在得到脉冲响应函数方面。而脉冲响应函数主要被用于宏观经济学中的冲击响应分析（比如，提升利率对GDP的影响），通过画图可以直观地明白政策的效果。</p>
 <p>局部投影法的优势在于可以不用像VAR一样对数个方程同时进行估计，而是可以根据需要灵活地设定和估计我们感兴趣的变量的响应函数；同时，通过引入高次项和其他控制变量，可以使得模型的预测更符合真实的情况；而且，局部投影法对于经济变量背后的data generating process （DGP）要求更低，即使我们不能准确变量真实的DGP，通过局部投影法得到的结果也是（更）稳健的。</p>
 <p>下面转引大森投研的PPT：</p>
-<p><img src="/images/image-20230214154548645.png" alt="image-20230214154548645"></p>
-<p><img src="/images/image-20230214154604602.png" alt="image-20230214154604602"></p>
-<p><img src="/images/image-20230214154615388.png" alt="image-20230214154615388"></p>
-<p><img src="/images/image-20230214154635261.png" alt="image-20230214154635261"></p>
-<p><img src="/images/image-20230214154645364.png" alt="image-20230214154645364"></p>
-<p><img src="/images/image-20230214154653375.png" alt="image-20230214154653375"></p>
-<p><img src="/images/image-20230214154705119.png" alt="image-20230214154705119"></p>
-<p><img src="/images/image-20230214154713192.png" alt="image-20230214154713192"></p>
-<p><img src="/images/image-20230214154728379.png" alt="image-20230214154728379"></p>
-<p><img src="/images/image-20230214154736079.png" alt="image-20230214154736079"></p>
-<p><img src="/images/image-20230214154746121.png" alt="image-20230214154746121"></p>
-<p><img src="/images/image-20230214154758118.png" alt="image-20230214154758118"></p>
-<p><img src="/images/image-20230214154805262.png" alt="image-20230214154805262"></p>
-<p><img src="/images/image-20230214171840477.png" alt="image-20230214171840477"></p>
-<p><img src="/images/image-20230214171847831.png" alt="image-20230214171847831"></p>
-<p><img src="/images/image-20230214171855712.png" alt="image-20230214171855712"></p>
-<p><img src="/images/image-20230214171906193.png" alt="image-20230214171906193"></p>
-<p><img src="/images/image-20230214171913496.png" alt="image-20230214171913496"></p>
-<p><img src="/images/image-20230214171920867.png" alt="image-20230214171920867"></p>
-<p><a target="_blank" rel="noopener" href="https://sites.google.com/site/oscarjorda/home/local-projections">Òscar Jordà</a></p>
-<p><strong>STATA code</strong></p>
+<p><img src="/images/image-20230214154548645.png" alt=""></p>
+<p><img src="/images/image-20230214154604602.png" alt=""></p>
+<p><img src="/images/image-20230214154615388.png" alt=""></p>
+<p><img src="/images/image-20230214154635261.png" alt=""></p>
+<p><img src="/images/image-20230214154645364.png" alt=""></p>
+<p><img src="/images/image-20230214154653375.png" alt=""></p>
+<p><img src="/images/image-20230214154705119.png" alt=""></p>
+<p><img src="/images/image-20230214154713192.png" alt=""></p>
+<p><img src="/images/image-20230214154728379.png" alt=""></p>
+<p><img src="/images/image-20230214154736079.png" alt=""></p>
+<p><img src="/images/image-20230214154746121.png" alt=""></p>
+<p><img src="/images/image-20230214154758118.png" alt=""></p>
+<p><img src="/images/image-20230214154805262.png" alt=""></p>
+<p><img src="/images/image-20230214171840477.png" alt=""></p>
+<p><img src="/images/image-20230214171847831.png" alt=""></p>
+<p><img src="/images/image-20230214171855712.png" alt=""></p>
+<p><img src="/images/image-20230214171906193.png" alt=""></p>
+<p><img src="/images/image-20230214171913496.png" alt=""></p>
+<p><img src="/images/image-20230214171920867.png" alt=""></p>
+<h3 id="二、论文和代码"><a href="#二、论文和代码" class="headerlink" title="二、论文和代码"></a>二、论文和代码</h3><p><a target="_blank" rel="noopener" href="https://sites.google.com/site/oscarjorda/home/local-projections">Òscar Jordà主页</a></p>
+<h4 id="（一）代码"><a href="#（一）代码" class="headerlink" title="（一）代码"></a>（一）代码</h4><p><strong>STATA code</strong></p>
 <ul>
 <li>simple time series example: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/15mu23rUs7yQgUwbDfii4htFELBSsggmu/view?usp=sharing">lp_example.do</a></li>
 <li>LPIV example:<a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U1QXJRw5XRW_tQzE2dBZ2GTDQl5uN7cB/view?usp=sharing"> lpiv_example.do</a>; .dta files needed: <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U2Bq86BnkeI5Ncd7PZ2a68iC7Msqy-Ul/view?usp=sharing">lpiv_15Mar2022.dta</a> and <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1U250PyE-uzofoZz4BtjB2jWtZuq1ojlr/view?usp=sharing">RR_monetary_shock_quarterly.dta</a></li>
@@ -486,7 +486,7 @@
 <ul>
 <li>Code prepared by Philipp Adämmer. <a target="_blank" rel="noopener" href="https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fweb%2Fpackages%2Flpirfs%2Flpirfs.pdf&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0wE-B9OzXTPkmNHalQ6Fad">Here is a description of its capabilities</a></li>
 </ul>
-<p><strong>Silvia Miranda Agrippino’s MATLAB code for “The Transmission of Monetary Policy Shocks” (with G. Ricco).</strong> </p>
+<h4 id="（二）论文"><a href="#（二）论文" class="headerlink" title="（二）论文"></a>（二）论文</h4><p><strong>Silvia Miranda Agrippino’s MATLAB code for “The Transmission of Monetary Policy Shocks” (with G. Ricco).</strong> </p>
 <ul>
 <li><p><a target="_blank" rel="noopener" href="http://www.google.com/url?q=http%3A%2F%2Fsilviamirandaagrippino.com%2Fcode-data&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1S96Z3Y0UqAtYfL__FIlDs">typical and Bayesian local projections available here</a></p>
 </li>
