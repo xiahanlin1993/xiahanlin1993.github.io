@@ -6,7 +6,7 @@
   <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiahanlin1993.github.io/"/>
-  <updated>2023-02-14T17:19:33.697Z</updated>
+  <updated>2023-02-15T19:20:24.949Z</updated>
   <id>http://xiahanlin1993.github.io/</id>
   
   <author>
@@ -15,6 +15,179 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>经济学论文数据与代码——期刊、平台和个人</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/jing-ji-xue-lun-wen-shu-ju-yu-dai-ma-qi-kan-ping-tai-he-ge-ren/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/jing-ji-xue-lun-wen-shu-ju-yu-dai-ma-qi-kan-ping-tai-he-ge-ren/</id>
+    <published>2023-02-15T14:53:09.000Z</published>
+    <updated>2023-02-15T19:20:24.949Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;学术期刊网站&lt;/p&gt;
+&lt;p&gt;经济学Top5期刊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;American Economic Review&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AEA官网论文Additional Materials：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="实证" scheme="http://xiahanlin1993.github.io/categories/%E5%AE%9E%E8%AF%81/"/>
+    
+    
+    <category term="数据" scheme="http://xiahanlin1993.github.io/tags/%E6%95%B0%E6%8D%AE/"/>
+    
+    <category term="代码" scheme="http://xiahanlin1993.github.io/tags/%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>China&#39;s economy and finance</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/china-s-economy-and-finance/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/china-s-economy-and-finance/</id>
+    <published>2023-02-15T14:30:32.000Z</published>
+    <updated>2023-02-15T19:20:30.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;经济政策的效果&lt;/p&gt;
+&lt;p&gt;Bai C E, Hsieh C T, Song Z M. （ 2016）.&lt;a href=&quot;\images\the long shadow Fiscal Expansion_chang-taihsieh-2016.pdf&quot;&gt;The Long</summary>
+        
+      
+    
+    
+    
+    <category term="事实" scheme="http://xiahanlin1993.github.io/categories/%E4%BA%8B%E5%AE%9E/"/>
+    
+    
+    <category term="中国经济" scheme="http://xiahanlin1993.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E/"/>
+    
+    <category term="中国金融" scheme="http://xiahanlin1993.github.io/tags/%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VAR类模型</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/var-lei-mo-xing/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/var-lei-mo-xing/</id>
+    <published>2023-02-15T13:24:05.000Z</published>
+    <updated>2023-02-15T19:20:58.878Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;TVAR&quot;&gt;&lt;a href=&quot;#TVAR&quot; class=&quot;headerlink&quot; title=&quot;TVAR&quot;&gt;&lt;/a&gt;TVAR&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piergiorgio Alessandri, Haroon Mumtaz 2017, &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="计量" scheme="http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F/"/>
+    
+    
+    <category term="VAR" scheme="http://xiahanlin1993.github.io/tags/VAR/"/>
+    
+    <category term="SVAR" scheme="http://xiahanlin1993.github.io/tags/SVAR/"/>
+    
+    <category term="TVAR" scheme="http://xiahanlin1993.github.io/tags/TVAR/"/>
+    
+    <category term="FAVAR" scheme="http://xiahanlin1993.github.io/tags/FAVAR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有用的计量工具箱</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/you-yong-de-ji-liang-gong-ju-xiang/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/you-yong-de-ji-liang-gong-ju-xiang/</id>
+    <published>2023-02-15T10:27:28.000Z</published>
+    <updated>2023-02-15T19:21:03.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;Ambrogio-Cesa-Bianchi&quot;&gt;&lt;a href=&quot;#Ambrogio-Cesa-Bianchi&quot; class=&quot;headerlink&quot; title=&quot;Ambrogio Cesa-Bianchi&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="计量" scheme="http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F/"/>
+    
+    
+    <category term="Matlab" scheme="http://xiahanlin1993.github.io/tags/Matlab/"/>
+    
+    <category term="工具" scheme="http://xiahanlin1993.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RBC与Dynare</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/rbc-yu-dynare/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/rbc-yu-dynare/</id>
+    <published>2023-02-15T09:05:51.000Z</published>
+    <updated>2023-02-15T19:21:10.343Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;RBC&quot;&gt;&lt;a href=&quot;#RBC&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="理论" scheme="http://xiahanlin1993.github.io/categories/%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="Dynare" scheme="http://xiahanlin1993.github.io/tags/Dynare/"/>
+    
+    <category term="RBC" scheme="http://xiahanlin1993.github.io/tags/RBC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DSGE学习和参考文献</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/15/dsge-xue-xi-he-can-kao-wen-xian/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/15/dsge-xue-xi-he-can-kao-wen-xian/</id>
+    <published>2023-02-15T03:29:04.000Z</published>
+    <updated>2023-02-15T19:21:16.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;财政乘数的计算&lt;/p&gt;
+&lt;p&gt;Jesper Lindé &amp;amp; Mathias Trabandt（2018，JAE):&lt;strong&gt;Should we use linearized models to calculate fiscal</summary>
+        
+      
+    
+    
+    
+    <category term="理论" scheme="http://xiahanlin1993.github.io/categories/%E7%90%86%E8%AE%BA/"/>
+    
+    
+    <category term="Matlab" scheme="http://xiahanlin1993.github.io/tags/Matlab/"/>
+    
+    <category term="DSGE" scheme="http://xiahanlin1993.github.io/tags/DSGE/"/>
+    
+  </entry>
   
   <entry>
     <title>我关注的公众号</title>
@@ -77,7 +250,7 @@
     <link href="http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/"/>
     <id>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</id>
     <published>2023-02-14T07:35:59.000Z</published>
-    <updated>2023-02-14T17:22:11.050Z</updated>
+    <updated>2023-02-14T17:26:42.049Z</updated>
     
     
       
