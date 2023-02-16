@@ -1,3 +1,4 @@
+http://xiahanlin1993.github.io/2023/02/16/chong-yao-zi-liao-hui-ji-ding-qi-zheng-li/
 http://xiahanlin1993.github.io/2023/02/15/dsge-xue-xi-he-can-kao-wen-xian/
 http://xiahanlin1993.github.io/2023/02/15/rbc-yu-dynare/
 http://xiahanlin1993.github.io/2023/02/15/you-yong-de-ji-liang-gong-ju-xiang/
@@ -35,6 +36,8 @@ http://xiahanlin1993.github.io/tags/FAVAR/
 http://xiahanlin1993.github.io/tags/%E5%B7%A5%E5%85%B7/
 http://xiahanlin1993.github.io/tags/%E6%95%B0%E6%8D%AE/
 http://xiahanlin1993.github.io/tags/%E4%BB%A3%E7%A0%81/
+http://xiahanlin1993.github.io/tags/%E7%94%9F%E6%B4%BB/
+http://xiahanlin1993.github.io/tags/%E6%8A%95%E8%B5%84/
 http://xiahanlin1993.github.io/categories/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/
 http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/
 http://xiahanlin1993.github.io/categories/%E7%94%9F%E6%B4%BB/
@@ -42,3 +45,4 @@ http://xiahanlin1993.github.io/categories/%E4%BA%8B%E5%AE%9E/
 http://xiahanlin1993.github.io/categories/%E7%90%86%E8%AE%BA/
 http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F/
 http://xiahanlin1993.github.io/categories/%E5%AE%9E%E8%AF%81/
+http://xiahanlin1993.github.io/categories/%E8%B5%84%E6%96%99/
