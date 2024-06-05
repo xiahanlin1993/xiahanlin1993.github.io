@@ -1,0 +1,2854 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Stata画中国省级地图, 夏汉林">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Stata画中国省级地图 | 夏汉林</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="夏汉林" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">夏汉林</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>文章分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>文章标签</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/resource" class="waves-effect waves-light">
+      
+      <i class="fas fa-book" style="zoom: 0.6;"></i>
+      
+      <span>资源</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/%E7%A7%91%E7%A0%94%E4%B8%BB%E9%A1%B5" class="waves-effect waves-light">
+      
+      <i class="fa fa-arrow-circle-up" style="zoom: 0.6;"></i>
+      
+      <span>科研主页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">夏汉林</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-archive"></i>
+			
+			归档
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:50px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:28px" ></i>
+			      
+		          <span>文章分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:50px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:28px" ></i>
+			      
+		          <span>文章标签</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/resource" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-book"></i>
+			
+			资源
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/%E7%A7%91%E7%A0%94%E4%B8%BB%E9%A1%B5" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-arrow-circle-up"></i>
+			
+			科研主页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Stata画中国省级地图</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Stata/">
+                                <span class="chip bg-color">Stata</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%94%BB%E5%9B%BE/">
+                                <span class="chip bg-color">画图</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%AE%9E%E8%AF%81/" class="post-category">
+                                实证
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-02-18
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    12.6k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>参考：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV12L411J7Vt/?vd_source=02b8b2856e40df6b2aacc74fc07e9257">使用 Stata 绘制中国省级地图！比例尺、指北针、秦岭-淮河线、胡焕庸线、海岸线</a></p>
+<p>代码：<a target="_blank" rel="noopener" href="https://github.com/Wsf921109/stata-prov-map/blob/main/README.md">github</a></p>
+<p>笔记</p>
+<p>填充地图</p>
+<p><img src="/images/pic1.png" alt="pic1"></p>
+<p><img src="/images/pic2.png" alt="pic2"></p>
+<p>离散变量填充地图</p>
+<p><img src="/images/pic8.png" alt="pic8"></p>
+<p>连续变量填充地图</p>
+<p><img src="/images/pic3.png" alt="pic3"></p>
+<p>加小部件——矩形</p>
+<p><img src="/images/pic6.png" alt="pic6"></p>
+<p>加小部件——饼图</p>
+<p><img src="/images/pic5.png" alt="pic5"></p>
+<p>描点——点的大小表示另外一个变量</p>
+<p><img src="/images/pic4.png" alt="pic4"></p>
+<p>距离秦岭——淮河越近，点越小，距离越远，点越大。</p>
+<pre><code>*画多边形
+chinaprov40_db.dta  //属性文件
+chinaprov40_coord.dta  //坐标文件
+*画线条和框线
+chinaprov40_line_db.dta
+chinaprov40_line_coord.dta
+*标签的位置
+chinaprov40_label.dta
+*画比例尺和指南针的多边形
+polygon.dta
+
+*画最简单的地图
+use chinaprov40_db.dta,clear
+*use chinaprov40_coord.dta,clear
+spmap using chinaprov40_coord.dta,id(ID)
+
+*加九段线和比例尺、胡焕庸线等
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta))
+*use chinaprov40_line_coord.dta,clear
+*use chinaprov40_line_db.dta,clear  //查看每一个ID对应的属性
+
+*删掉胡焕庸线
+*use chinaprov40_line_db.dta,clear  //查看每一个ID对应的属性
+*_ID=41
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+select(drop if _ID ==44))
+
+*删掉秦岭淮河线
+*use chinaprov40_line_db.dta,clear  //查看每一个ID对应的属性
+*_ID=38
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+select(drop if _ID ==44 |_ID ==38))
+
+*查看省与属性的一一对应关系
+use chinaprov40_line_coord.dta,clear
+ren _ID ID
+merge m:1 ID using chinaprov40_line_db.dta
+
+contract group 省
+*group  类别
+*1    省界线
+*2    国界线
+*3    海岸线
+*4    秦岭-淮河线
+*5    小地图框格
+*6    指北针/比例尺
+*7    胡焕庸线
+*group的作用，不同的线条使用不同的粗细和颜色
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 )///
+color(white black blue%50 green black black red))
+
+*填充比例尺的颜色——polygon
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon.dta) fcolor(black)) ///画多边形
+
+*加省份标签
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label.dta) x(X) y(Y) label(cname)) //画中文标签
+
+*不要南海诸岛和指北针的标签
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label.dta) x(X) y(Y) label(cname) ///
+*select(drop if cname==&quot;南海诸岛&quot;)) //画中文标签 
+select(drop if inlist(cname,&quot;南海诸岛&quot;,&quot;N&quot;,&quot;1000km&quot;)) //画中文标签
+
+*如何移动指北针和比例尺
+线条-多边形和
+use chinaprov40_line_coord.dta,clear
+use chinaprov40_line_db.dta,clear
+replace _X = _X+3000000 if inlist(_ID,40,41)
+replace _Y = _Y+4000000 if inlist(_ID,40,41) //单位是米
+save chinaprov40_line_coord2.dta,replace
+*画出坐标系，以确定X轴和Y轴要移动多少——freestyle
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label.dta) x(X) y(Y) label(cname)) freestyle//画中文标签
+
+*移动线条
+use polygon.dta,clear
+replace _X = _X+3000000 if _ID==38
+replace _Y = _Y+4000000 if _ID==38
+save polygon2.dta,replace
+
+use chinaprov40_label.dta,clear
+replace X = X + 3000000 if cname==&quot;N&quot;
+replace Y = Y + 4000000 if cname==&quot;N&quot;
+save chinaprov40_label2.dta,replace
+
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord2.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon2.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label2.dta) x(X) y(Y) label(cname))
+
+*同时移动指北针和比例尺
+use chinaprov40_line_coord.dta,clear
+replace _X = _X+3000000 if inlist(_ID,40,41)
+replace _Y = _Y+4000000 if inlist(_ID,40,41)
+replace _Y = _Y+200000 if inlist(_ID,42,43)
+save chinaprov40_line_coord2.dta,replace
+
+use polygon.dta,clear
+replace _X = _X+3000000 if _ID==38
+replace _Y = _Y+4000000 if _ID==38
+replace _Y = _Y+200000 if _ID==39
+save polygon2.dta,replace
+
+use chinaprov40_label.dta,clear
+replace X = X + 3000000 if cname==&quot;N&quot;
+replace Y = Y + 4000000 if cname==&quot;N&quot;
+replace Y = Y + 200000 if cname==&quot;1000km&quot;
+save chinaprov40_label2.dta,replace
+
+use chinaprov40_db.dta,clear
+spmap using chinaprov40_coord.dta,id(ID) ///
+line(data(chinaprov40_line_coord2.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white black blue%50 green black black red)) ///
+polygon(data(polygon2.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label2.dta) x(X) y(Y) label(cname) size(*0.8))/// 设置标签小一点
+graphr(margin(medium))// 调整边距，放大
+
+*案例一：2019年中国省级行政区域
+use chinaprov40_db.dta,clear
+encode 类型,gen(type)
+codebook type //查看数-标签对照
+*注意 stata15（含）使用spmap，15之后就可以使用grmap，第一次使用需要激活
+*grmap,activate 
+*使用grmap和spmap的结果是一样的，spmap是第三方，grmap是官方
+grmap type using chinaprov40_coord.dta,id(ID) /// //不需要改动底图，只需要添加type进行填充
+line(data(chinaprov40_line_coord2.dta) ///
+*select(drop if _ID ==44 |_ID ==38) ///
+by(group) size(vvthin *1.2 *0.5 *1.2 *0.5 *0.5 *1.2 ) ///
+color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              &quot;24 188 156&quot; /// 秦岭淮河线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              &quot;227 26 28&quot; /// 胡焕庸线颜色
+              )) ///
+polygon(data(polygon2.dta) fcolor(black)) /// //画多边形
+label(data(chinaprov40_label2.dta) x(X) y(Y) label(cname) size(*0.8))/// 设置标签小一点
+graphr(margin(medium))// 调整边距，放大
+
+*想要的是每一种type对应一种颜色，但图形是分组1-4,4-5
+重新设定分组
+help spmap
+*clmethod(custom) clbreak(0 1 2 3 4 5) 自定义分组，分成五组
+fcolor(&quot;254 212 57&quot; &quot;253 116 70&quot; &quot;138 145 151&quot; &quot;213 228 162&quot; &quot;210 175 129&quot;) ///自己填充颜色，可选择渐变色
+*gr export test.pdf,replace
+osize(vvthin ...)/// outline 边框线（省界）的大小 ...表示所有的图层 
+ocolor(white ...) ///颜色为白色
+legend(order(2 &quot;不统计&quot; 3 &quot;特别行政区&quot; 4 &quot;直辖市&quot; 5 &quot;省&quot; 6 &quot;自治区&quot; 11 &quot;秦岭-淮河线&quot; 14 &quot;胡焕庸线&quot;))
+ti(&quot;使用 Stata 绘制 2019 年中国省级行政区划&quot;) ///
+    subti(&quot;绘制：微信公众号 RStata&quot;) ///
+    caption(&quot;版本：使用 Stata 绘制中国省级地图数据包 4.0&quot;, size(*0.8))
+    gr export pic1.png, replace width(1200)
+*使用graph editor查看图层对应
+
+案例一：全部代码
+离散变量的绘制
+use chinaprov40_db.dta, clear 
+encode 类型, gen(type)
+codebook type
+
+grmap type using chinaprov40_coord.dta, ///
+    id(ID) osize(vvthin ...) ocolor(white ...) ///
+    clmethod(custom) clbreaks(0 1 2 3 4 5) ///
+    fcolor(&quot;254 212 57&quot; &quot;253 116 70&quot; &quot;138 145 151&quot; &quot;213 228 162&quot; &quot;210 175 129&quot;) ///
+    leg(order(2 &quot;不统计&quot; 3 &quot;特别行政区&quot; 4 &quot;直辖市&quot; 5 &quot;省&quot; 6 &quot;自治区&quot; 11 &quot;秦岭-淮河线&quot; 14 &quot;胡焕庸线&quot;)) ///
+    graphr(margin(medium)) ///
+    line(data(chinaprov40_line_coord.dta) by(group) size(vvthin *1 *0.5 *1.2 *0.5 *0.5 *1.2) pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              &quot;24 188 156&quot; /// 秦岭淮河线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              &quot;227 26 28&quot; /// 胡焕庸线颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(cname) length(20) size(*0.8)) ///
+    ti(&quot;使用 Stata 绘制 2019 年中国省级行政区划&quot;) ///
+    subti(&quot;绘制：微信公众号 RStata&quot;) ///
+    caption(&quot;版本：使用 Stata 绘制中国省级地图数据包 4.0&quot;, size(*0.8))
+gr export pic1.png, replace width(1200)
+
+案例二-案例一的英文版本
+*chinaprov40_label.dta 数据决定了文本标签的位置和内容，如果想绘制英文版的地图，可以使用 ename 变量：
+grmap type using chinaprov40_coord.dta, ///
+    id(ID) osize(vvthin ...) ocolor(white ...) ///
+    clmethod(custom) clbreaks(0 1 2 3 4 5) ///
+    fcolor(&quot;254 212 57&quot; &quot;253 116 70&quot; &quot;138 145 151&quot; &quot;213 228 162&quot; &quot;210 175 129&quot;) ///
+    leg(order(2 &quot;Not within the scope of statistics&quot; 3 &quot;Special administrative region&quot; 4 &quot;Municipality directly under&quot; &quot;the Central Government&quot; 5 &quot;Province&quot; 6 &quot;Autonomous Region&quot; 11 &quot;Qinling Huaihe River Line&quot; 14 &quot;Hu Huanyong line&quot;)) /// 换行
+    graphr(margin(medium)) ///
+    line(data(chinaprov40_line_coord.dta) by(group) size(vvthin *1 *0.5 *1.2 *0.5 *0.5 *1.2) pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              &quot;24 188 156&quot; /// 秦岭淮河线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              &quot;227 26 28&quot; /// 胡焕庸线颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(ename) length(20) size(*0.6)) ///标签长度和大小
+    ti(&quot;Using Stata to draw China&#39;s provincial map in 2019&quot;) ///
+    subti(&quot;WeChat Subscription: RStata&quot;) ///
+    caption(&quot;Version: 4.0&quot;, size(*0.8))
+gr export pic2.png, replace width(1200)
+
+案例三：连续变量
+*连续变量的绘制方法和离散变量的类似，通过恰当的分组和颜色填充就可以绘制出精美的图表了，下面以2020 年中国各省市地区生产总值的填充地图绘制为例：
+import delimited using &quot;2020年中国各省市地区生产总值.csv&quot;, clear encoding(utf8)
+gen prov = substr(省份, 1, 6)
+save 2020年中国各省市地区生产总值, replace 
+
+use chinaprov40_db.dta, clear 
+gen prov = substr(省, 1, 6) //省份的前两个字
+merge 1:1 prov using 2020年中国各省市地区生产总值
+replace 地区生产总值 = -1 if missing(地区生产总值)// 缺失值，缺失也可以填充颜色
+grmap 地区生产总值 using chinaprov40_coord.dta, ///
+    id(ID) osize(vvthin ...) ocolor(white ...) ///
+    clmethod(custom) clbreaks(-1 0 20000 40000 60000 80000 120000) ///
+    fcolor(gray &quot;224 242 241&quot; &quot;178 223 219&quot; &quot;128 203 196&quot; &quot;77 182 172&quot; &quot;38 166 154&quot;) ///
+    leg(order(2 &quot;无数据&quot; 3 &quot;&lt; 2 万亿元&quot; 4 &quot;2～4 万亿元&quot; 5 &quot;4～6 万亿元&quot; 6 &quot;6～8 万亿元&quot; 7 &quot;&gt; 8 万亿元&quot;)) ///
+    graphr(margin(medium)) ///
+    line(data(chinaprov40_line_coord.dta) ///
+        /// 去除秦岭淮河线(4)、胡焕庸线(7)
+        select(keep if inlist(group, 1, 2, 3, 5, 6)) ///
+        by(group) size(vvthin *1 *0.5 *0.5 *0.5) ///
+        pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(cname) length(20) size(*0.8)) ///
+    ti(&quot;2020 年中国各省市地区生产总值&quot;) ///
+    subti(&quot;绘制：微信公众号 RStata&quot;) ///
+    caption(&quot;数据来源：各地统计局&quot;, size(*0.8))
+gr export pic3.png, replace width(1200)
+</code></pre><p>主要关注怎么分组，怎么设定颜色，怎么设定图例？</p>
+<pre><code>案例四：2013年中国工业企业分布及距离秦岭淮河的距离
+*转换坐标，经纬度到笛卡尔坐标系
+* 转换方式一：https://czxb.shinyapps.io/crs-trans/
+* 注意事项，上传的 csv 文件应该包含数值型的 lon 和 lat 变量，观测值上限大概是 10 万个，不可多人同时使用。
+use gq2013sample.dta,clear
+keep *度
+ren 经度 lon
+ren 维度 lat
+export delimited using &quot;待上传.csv&quot;,replace
+
+import delimited using &quot;转换后的数据.csv&quot;,clear
+gen id = _n
+save 转换后的数据,replace
+use gq2013sample.dta,clear
+gen id=_n
+merge 1:1 id using &quot;转换后的数据&quot;
+keep x y 与秦岭淮河线的距离 北方或南方
+encode 北方或南方,gen(north)
+save pointdata,replace
+
+use chinaprov40_db.dta, clear
+spmap using chinaprov40_coord.dta, id(ID) /// 不需要填充
+    ocolor(&quot;black&quot; ...) osize(vvthin ...) ///
+    line(data(chinaprov40_line_coord.dta) ///
+        /// 胡焕庸线（7）
+        select(keep if inlist(group, 1, 2, 3, 4, 5, 6)) ///
+        by(group) size(vvthin *1 *0.5 *1.5 *0.5 *0.5) ///
+        pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              &quot;0 85 170&quot; /// 秦岭淮河线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(cname) length(20) size(*0.8)) ///
+    point(data(pointdata) by(north) ///
+        fcolor(&quot;227 26 28%30&quot; &quot;24 188 156%30&quot;) ///
+        x(x) y(y) ///
+        proportional(与秦岭淮河线的距离) /// 点的大小
+        size(*0.1) legenda(on)) ///
+    leg(order(7 &quot;秦岭-淮河线&quot; 10 &quot;北方工企业&quot; 11 &quot;南方工企业&quot;)) ///
+    ti(&quot;2013 年中国工业企业与秦岭-淮河线的距离&quot;, color(black)) /// 
+    subti(&quot;绘制：微信公众号 RStata&quot;) ///
+    graphr(margin(medium)) ///
+    caption(&quot;数据来源：2013 年中国工业企业数据库，使用高德地图地理编码接口解析经纬度&quot;, size(*0.8))
+gr export pic4.png, replace width(1200)
+</code></pre><p>案例五：加饼图</p>
+<pre><code>饼图的位置可以用标签位置：
+use 各省历年GDP, clear 
+drop if 省份 == &quot;中国&quot;
+
+replace 地区生产总值_亿元 = 地区生产总值_亿元 / 1000
+merge m:m 省代码 using chinaprov40_db.dta
+replace 地区生产总值_亿元 = -1 if missing(年份)
+grmap 地区生产总值_亿元 if 年份 == 2019 | missing(年份) ///
+    using chinaprov40_coord.dta, id(ID) ///
+    clmethod(custom) clbreaks(-1 0 40 60 80 100 120) /// 
+    fcolor(&quot;gray&quot; &quot;237 248 233&quot; &quot;199 233 192&quot; &quot;161 217 155&quot; &quot;116 196 118&quot; &quot;49 163 84&quot;) ///
+    ocolor(&quot;gray&quot; ...) ///
+    ti(&quot;2019 年中国各省地区生产总值 &amp; 产业结构&quot;, size(*1.1)) ///
+    subtitle(&quot;数据来源：CSMAR经济金融数据库&quot;) ///
+    graphr(margin(medium)) ///
+    osize(vvthin ...) ///
+    legend(size(*1.1) ///
+        order(2 &quot;无数据&quot; 3 &quot;&lt; 40千亿&quot; ///
+            4 &quot;40～60千亿&quot; 5 &quot;60～80千亿&quot; ///
+            6 &quot;80～100千亿&quot; 7 &quot;&gt; 100千亿&quot; ///
+            14 &quot;第一产业&quot; 15 &quot;第二产业&quot; 16 &quot;第三产业&quot;)) ///
+    caption(&quot;绘制：微信公众号 RStata&quot;, size(*0.8)) ///
+    line(data(chinaprov40_line_coord.dta) ///
+        /// 去除秦岭淮河线(4) 胡焕庸线（7）
+        select(keep if inlist(group, 1, 2, 3, 5, 6)) ///
+        by(group) size(vvthin *1 *0.5 *0.5 *0.5) ///
+        pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(cname) length(20) size(*0.8)) ///
+    diagram(data(piedata) x(X) y(Y) v(第一产业占GDP比重_百分比 第二产业占GDP比重_百分比 第三产业占GDP比重_百分比) ///
+        type(pie) legenda(on) os(vvthin) ///
+            size(1.5) fc(&quot;102 194 165&quot; &quot;252 141 98&quot; &quot;229 196 148&quot;) ///
+            oc(&quot;102 194 165&quot; &quot;252 141 98&quot; &quot;229 196 148&quot;))
+
+gr export &quot;pic5.png&quot;, replace width(1200)
+</code></pre><p>饼图也可以换成框架矩形图：</p>
+<pre><code>grmap 地区生产总值_亿元 if 年份 == 2019 | missing(年份) ///
+    using chinaprov40_coord.dta, id(ID) ///
+    clmethod(custom) clbreaks(-1 0 40 60 80 100 120) /// 
+    fcolor(&quot;gray&quot; &quot;237 248 233&quot; &quot;199 233 192&quot; &quot;161 217 155&quot; &quot;116 196 118&quot; &quot;49 163 84&quot;) ///
+    ocolor(&quot;gray&quot; ...) ///
+    ti(&quot;2019 年中国各省地区生产总值 &amp; 第一产业比重&quot;, size(*1.1)) ///
+    subtitle(&quot;数据来源：CSMAR经济金融数据库&quot;) ///
+    graphr(margin(medium)) ///
+    osize(vvthin ...) ///
+    legend(size(*1.1) ///
+        order(2 &quot;无数据&quot; 3 &quot;&lt; 40千亿&quot; ///
+            4 &quot;40～60千亿&quot; 5 &quot;60～80千亿&quot; ///
+            6 &quot;80～100千亿&quot; 7 &quot;&gt; 100千亿&quot; ///
+            15 &quot;第一产业比重&quot;)) ///
+    caption(&quot;绘制：微信公众号 RStata&quot;, size(*0.8)) ///
+    line(data(chinaprov40_line_coord.dta) ///
+        /// 去除秦岭淮河线(4) 胡焕庸线（7）
+        select(keep if inlist(group, 1, 2, 3, 5, 6)) ///
+        by(group) size(vvthin *1 *0.5 *0.5 *0.5) ///
+        pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    diagram(data(piedata) x(X) y(Y) v(第一产业占GDP比重_百分比) ///
+        type(frect) legenda(on) os(vvthin) ///
+            size(1.5) fc(&quot;252 141 98&quot;) ///
+            oc(&quot;252 141 98&quot;) refsize(none))
+gr export &quot;pic6.png&quot;, replace width(1200)
+</code></pre><p>案例六：各省人口密度</p>
+<p>最后我们再演示下胡焕庸线的用法：</p>
+<pre><code>use 中国人口空间分布省级面板数据集.dta, clear 
+ren 省份 省
+merge m:1 省 using chinaprov40_db.dta
+keep if 年份 == 2015 | missing(年份)
+replace 均值 = -1 if missing(均值)
+grmap 均值 using chinaprov40_coord.dta, ///
+    id(ID) osize(vvthin ...) ocolor(white ...) ///
+    clmethod(custom) clbreaks(-1 0 100 1000 2000 3000 4000) ///
+    fcolor(gray &quot;224 242 241&quot; &quot;178 223 219&quot; &quot;128 203 196&quot; &quot;77 182 172&quot; &quot;38 166 154&quot;) ///
+    leg(order(2 &quot;无数据&quot; 3 &quot;&lt; 100 人/平方公里&quot; 4 &quot;100～1000 人/平方公里&quot; 5 &quot;1000～2000 人/平方公里&quot; 6 &quot;2000～3000 人/平方公里&quot; 7 &quot;&gt; 3000 人/平方公里&quot; 14 &quot;胡焕庸线&quot;)) ///
+    graphr(margin(medium)) ///
+    line(data(chinaprov40_line_coord.dta) ///
+        /// 去除秦岭淮河线(4)
+        select(keep if inlist(group, 1, 2, 3, 5, 6, 7)) ///
+        by(group) size(vvthin *1 *0.5 *0.5 *0.5 *1.2) ///
+        pattern(solid ...) ///
+        color(white /// 省界颜色
+              black /// 国界线颜色
+              &quot;0 85 170&quot; /// 海岸线颜色
+              black /// 小地图框格颜色
+              black /// 比例尺和指北针颜色
+              &quot;227 26 28&quot; /// 胡焕庸线颜色
+              )) ///
+    polygon(data(polygon) fcolor(black) ///
+        osize(vvthin)) ///
+    label(data(chinaprov40_label) x(X) y(Y) label(cname) length(20) size(*0.8)) ///
+    ti(&quot;2015 年中国各省平均人口密度&quot;) ///
+    subti(&quot;绘制：微信公众号 RStata&quot;) ///
+    caption(&quot;数据来源：中国科学院资源环境科学与数据中心&quot;, size(*0.8))
+gr export pic7.png, replace width(1200)
+</code></pre><h4 id="【Stata】绘制一份完完整整的中国地图！"><a href="#【Stata】绘制一份完完整整的中国地图！" class="headerlink" title="【Stata】绘制一份完完整整的中国地图！"></a>【Stata】绘制一份完完整整的中国地图！</h4><p>文件准备：.shp和.dbf</p>
+<p>转换文件：转换为stata可以识别的.dta</p>
+<p>使用spmap命令绘图</p>
+<p>找shp文件的方法：</p>
+<p>stata自带命令提供的中国地图是不完整的，是不能使用的；另外，不过这个地图画出来也只能做ppt的演示，在国内发文章需要有正规的审图号，没审图号，发英文可以，中文期刊比较严格</p>
+<p>阿里云地图选择器：<a target="_blank" rel="noopener" href="http://datav.aliyun.com/tools/atlas/index.html">http://datav.aliyun.com/tools/atlas/index.html</a></p>
+<p>在json格式，优点，在后续倒入快很多</p>
+<p>shp格式转换：<a target="_blank" rel="noopener" href="https://mapshaper.org/">https://mapshaper.org/</a></p>
+<p><img src="/images/image-20230307144909621.png" alt="image-20230307144909621"></p>
+<p><img src="/images/image-20230307145115235.png" alt="image-20230307145115235"></p>
+<p>底图+指标</p>
+<p><img src="/images/640.png" alt="图片"></p>
+<p>也可以不使用stata画九段线，使用没有九段线的图和带九段线的图，在ppt中合并为1张图</p>
+<h2 id="stata-画二维地图"><a href="#stata-画二维地图" class="headerlink" title="stata 画二维地图"></a>stata 画二维地图</h2><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>二维地图很复杂，但是并不在于他们有多难画，而在于我们往往难以预料到画完的结果。很多时候我们很难绘制想要的图，但是一个像下面这样非常漂亮的图，无疑可以为我们的论文增添不少光彩。下面就让我们看看如何绘制二维地图吧！</p>
+<p><img src="/images/空间计量二维地图_陈卓然_Fig24.png" alt="img"></p>
+<p><img src="/images/空间计量二维地图_陈卓然_Fig25.png" alt="img"></p>
+<p> </p>
+<h2 id="2-准备工作"><a href="#2-准备工作" class="headerlink" title="2. 准备工作"></a>2. 准备工作</h2><p>首先安装如下命令，并进行相关设置。</p>
+<pre><code>ssc install geo2xy, replace  // 用来调整地图的映射
+ssc install schemepack, replace  // Stata绘图模板仓库
+set scheme white_tableau                  // 设置绘图模板
+graph set window fontface &quot;Arial Narrow&quot;  // 设置绘图字体
+</code></pre><p>然后下载数据「<a target="_blank" rel="noopener" href="https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/asrh/CC-EST2020-ALLDATA6.csv">CC-EST2020-ALLDATA6.csv</a>」，并做一些数据清理的工作。</p>
+<pre><code>import delim CC-EST2020-ALLDATA6.csv, clear
+tab year 
+keep if year==13   // 2020
+keep if agegrp==0  // TOTAL
+drop year agegrp
+keep sumlev state county stname ctyname tot_pop ba_male ba_female h_male h_female aa_male aa_female
+destring _all, replace
+ren state  STATEFP
+ren county COUNTYFP
+gen tot_afam  = ba_male  + ba_female  // african-american
+gen tot_hisp  = h_male   + h_female   // hispanic
+gen tot_asian = aa_male  + aa_female  // asian
+gen share_afam  = (tot_afam  / tot_pop) * 100
+gen share_hisp  = (tot_hisp  / tot_pop) * 100
+gen share_asian = (tot_asian / tot_pop) * 100
+compress
+save county_race.dta, replace
+</code></pre><p>接着，下载州和县的 ShapeFiles，即「<a target="_blank" rel="noopener" href="https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_state_500k.zip">cb_2018_us_state_500k.zip</a>」。现在，我们从边界开始画起。</p>
+<pre><code>spshape2dta cb_2018_us_state_500k.shp,replace saving(usa_state)
+</code></pre><p>以上命令语句是将 .shp 格式的文件转化为 Stata 认识的 .dta 格式的文件。</p>
+<pre><code>use usa_state, clear
+spmap using usa_state_shp, id(_ID)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig2.png" alt="img"></p>
+<p>很不巧，阿拉斯加实在是太大的，为了后续作图的美观，我们将阿拉斯加和夏威夷群岛去掉，只留下美国本土。为了快速找出这几个不在美国本土的州，我们用下面这个巧妙的方法来得到这些岛屿的识别码。</p>
+<pre><code>twoway (scatter _CY _CX, mlabel(STATEFP))
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig3.png" alt="img"></p>
+<p>这样我们就找到了需要删掉掉的岛屿的识别码了，他们是 <code>STATEFP = 02, 15, 60, 66, 69, 72, 78</code></p>
+<pre><code>* clean up the boundaries 
+use usa_state_shp, clear
+merge m:1 _ID using usa_state  // to get the identifiers
+destring STATEFP, replace 
+drop if inlist(STATEFP,2,15,60,66,69,72,78)
+twoway (scatter _Y _X)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig4.png" alt="img"></p>
+<p>好像和我们平时看到的美国地图不太一样，我们可以采用 <code>geo2xy</code> 这个命令来将经纬度转换到笛卡尔坐标系当中。</p>
+<pre><code>geo2xy _Y _X, proj(albers) replace
+twoway (scatter _Y _X)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig5.png" alt="img"></p>
+<p>看上去好多了！下面我们简单清理一下数据，然后保存起来。</p>
+<pre><code>drop _CX- _merge 
+sort _ID shape_order
+save usa_state_shp_clean.dta, replace
+</code></pre><p>让我们看下此时的地图长啥样。</p>
+<pre><code>use usa_state, clear
+spmap using usa_state_shp_clean, id(_ID)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig6.png" alt="img"></p>
+<p>看上去很不错，下面我们再对不同的县做同样的处理，这里需要下载文件「<a target="_blank" rel="noopener" href="https://www2.census.gov/geo/tiger/GENZ2018/shp/cb_2018_us_county_500k.zip">cb_2018_us_county_500k.zip</a>」。</p>
+<pre><code> * get the counties in order 
+spshape2dta &quot;cb_2018_us_county_500k.shp&quot;, replace saving(usa_county)
+
+* clean up the boundaries 
+use usa_county_shp, clear
+merge m:1 _ID using usa_county
+destring STATEFP, replace 
+drop if inlist(STATEFP,2,15,60,66,69,72,78)
+drop _CX- _merge 
+geo2xy _Y _X, proj(albers) replace
+sort _ID shape_order
+save usa_county_shp_clean.dta, replace
+
+ * 绘制地图
+use usa_county, clear
+destring _all, replace
+spmap using usa_county_shp_clean, id(_ID)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig7.png" alt="img"></p>
+<p> </p>
+<h2 id="3-地图"><a href="#3-地图" class="headerlink" title="3. 地图"></a>3. 地图</h2><p>首先让我们把需要的数据全部合并到一份文件当中。</p>
+<pre><code>use usa_county, clear
+destring _all, replace
+merge 1:1 STATEFP COUNTYFP using county_race
+keep if _m==3
+drop _m
+spmap share_afam using usa_county_shp_clean, id(_ID) clm(custom) clb(0(10)100) fcolor(Heat)  // 非裔美国人的比例
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig8.png" alt="img"></p>
+<pre><code>spmap share_hisp using usa_county_shp_clean, id(_ID) clm(custom) clb(0(10)100)  fcolor(Heat)  // 拉美裔美国人比例
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig9.png" alt="img"></p>
+<p>可以看到拉美裔和非裔美国人的分布存在显著差异。我们也可以画一个散点图来直观体现非裔美国人和拉美裔美国人之间的交叠部分。</p>
+<pre><code>scatter share_afam share_hisp
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig10.png" alt="img"></p>
+<p>可以发现二者几乎没有什么重叠区域。下面我们将这个散点图按种类分开。对于双变量的地图，我们需要分配 9 种或者 16 种颜色到不同的种类组合。但是在具体分配之前，我们需要做一件重要的事情就是弄清楚颜色分配的顺序。作者给出这样的颜色分配顺序：</p>
+<p><img src="/images/空间计量二维地图_陈卓然_Fig11.png" alt="img"></p>
+<p>接下来要做的是将数据按照顺序分为 9 组，分组的方式有很多，我们可以采用等分的方式或分位数分组的方式。首先让我们看一下如何采用等分的方式分组，作者给出了一种非常巧妙的方法。</p>
+<pre><code>* 将数据进行切分
+cap drop cut*
+egen cut_afam = cut(share_afam), at(0,33,66,100) icodes
+egen cut_hisp = cut(share_hisp), at(0,33,66,100) icodes
+egen cut_hisp2 = cut(share_hisp), group(3) icodes // 这个就是分位数
+
+* 分组
+sort cut_afam cut_hisp
+egen grp_cut = group(cut_afam cut_hisp)
+</code></pre><p>分位数分组数命令如下：</p>
+<pre><code> * 分位数
+cap drop xtile*
+xtile xtile_afam = share_afam, n(3)
+xtile xtile_hisp = share_hisp, n(3)
+
+ * 分组
+sort xtile_afam xtile_hisp
+egen grp_xtile = group(xtile_afam xtile_hisp)
+</code></pre><p>下面我们来比较一下这两种分组的结果：</p>
+<pre><code>twoway (scatter share_hisp share_afam, msize(small) mc(%10)), yline(0 33 66 100) ///
+       xline(0 33 66 100) xlabel(0(20)100) ylabel(0(20)100) aspect(1) 
+
+* get the cut-off points from tabstat
+tabstat share_hisp, by(xtile_hisp) c(stat) stat(max) 
+tabstat share_afam, by(xtile_afam) c(stat) stat(max)
+
+ * based on percentiles
+twoway (scatter share_hisp share_afam, msize(small) mc(%10)), yline(0 3 7.4 100) ///
+       xline(0 1.2 6.5 100) xlabel(0(20)100) ylabel(0(20)100) aspect(1)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig12.png" alt="img"></p>
+<p><img src="/images/空间计量二维地图_陈卓然_Fig13.png" alt="img"></p>
+<p>很明显，在等分法画出的图大约 80% 的点都落在左下角的那个方格当中，而在右上角的方格中却没有点，因此等分法的结果并不理想。相比之下以分位数法分组的结果就很理想，分位数的设置使得每一个方格中都有大约相等的点数。所以相比于等分法而言，分位数分组的结果可能会更加理想一些。下面我们检查一下两种分组的结果如何改变地图的格式。</p>
+<p>首先是等分的结果：</p>
+<pre><code>spmap grp_cut using usa_county_shp_clean, id(_ID) clm(unique) fcolor(Heat)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig14.png" alt="img"></p>
+<p>可以看出在等分法分组的情形下并没有什么特别之处，我们划分的 9 类中只有 6 类在图中体现出来了。而且在不同种类中划分地并不均匀。</p>
+<p>其次是分位数的结果：</p>
+<pre><code>spmap grp_xtile using usa_county_shp_clean, id(_ID) clm(unique) fcolor(Heat)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig15.png" alt="img"></p>
+<p>可以看到我们有 1-9 组，而且每一组都大致相等的点。然而有一个小缺陷就是颜色的深浅并不代表任何顺序。</p>
+<h2 id="4-颜色"><a href="#4-颜色" class="headerlink" title="4. 颜色"></a>4. 颜色</h2><p>二维地图的颜色设计需要仔细考虑，它们需要很容易区分并且有着足够的对比度以呈现更为有意义的信息。首先我们挑选一个紫色的模板：</p>
+<pre><code>colorpalette #e8e8e8 #dfb0d6 #be64ac #ace4e4 #a5add3 #8c62aa #5ac8c8 #5698b9 #3b4994
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig16.png" alt="img"></p>
+<p>下面让我们把颜色放进地图：</p>
+<pre><code>* 颜色放进地图
+colorpalette #e8e8e8 #dfb0d6 #be64ac #ace4e4 #a5add3 #8c62aa #5ac8c8 #5698b9 #3b4994, nograph 
+local colors `r(p)&#39;
+spmap grp_xtile using usa_county_shp_clean, ///
+    id(_ID) clm(unique)  fcolor(&quot;`colors&#39;&quot;) ///
+    ocolor(white ..) osize(0.02 ..)         /// 
+    ndfcolor(gs14) ndocolor(gs6 ..) ndsize(0.03 ..) ndlabel(&quot;No data&quot;) ///
+    polygon(data(&quot;usa_state_shp_clean&quot;) ocolor(white) osize(0.15) )    ///
+    legend(pos(5) size(2.5))  legstyle(2) ///
+    title(&quot;Comparison of African American versus Hispanic shares&quot;, size(5)) ///
+    note(&quot;Source: United States Census Bureau&quot;, size(vsmall))
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig17.png" alt="img"></p>
+<p>下面让我们去掉一些额外的信息：</p>
+<pre><code>colorpalette #e8e8e8 #dfb0d6 #be64ac #ace4e4 #a5add3 #8c62aa #5ac8c8 #5698b9 #3b4994, nograph 
+local colors `r(p)&#39;
+spmap grp_xtile using usa_county_shp_clean, ///
+     id(_ID) clm(unique)  fcolor(&quot;`colors&#39;&quot;) ///
+     ocolor(white ..) osize(none ..)         /// 
+     ndfcolor(gs14) ndocolor(gs6 ..) ndsize(0.03 ..) ndlabel(&quot;No data&quot;) ///
+     polygon(data(&quot;usa_state_shp_clean&quot;) ocolor(white) osize(0.12) )    ///
+     legend(off) name(bivar_map, replace)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig18.png" alt="img"></p>
+<p> </p>
+<h2 id="5-图例"><a href="#5-图例" class="headerlink" title="5. 图例"></a>5. 图例</h2><p>首先我们先在一个干净的画布上生成九个格点：</p>
+<pre><code>clear
+set obs 9
+egen y = seq(), b(3)  
+egen x = seq(), t(3)
+twoway (scatter y x)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig19.png" alt="img"></p>
+<p>现在将这些点转化为方格，然后增加坐标轴的大小：</p>
+<pre><code>twoway (scatter y x, msymbol(square) msize(18)), xlabel(0 4) ylabel(0 4) aspect(1)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig20.png" alt="img"></p>
+<p>接下来把颜色放进去了，我们先看如何把对角的颜色填充进去：</p>
+<pre><code>colorpalette #e8e8e8 #dfb0d6 #be64ac #ace4e4 #a5add3 #8c62aa #5ac8c8 #5698b9 #3b4994, nograph 
+return list
+local color11 `r(p1)&#39;
+local color12 `r(p2)&#39;
+local color13 `r(p3)&#39;
+local color21 `r(p4)&#39;
+local color22 `r(p5)&#39;
+local color23 `r(p6)&#39;
+local color31 `r(p7)&#39;
+local color32 `r(p8)&#39;
+local color33 `r(p9)&#39;
+twoway (scatter y x if x==1 &amp; y==1, msymbol(square) msize(18) mc(&quot;`color11&#39;&quot;)) ///
+    (scatter y x if x==2 &amp; y==2, msymbol(square) msize(18) mc(&quot;`color22&#39;&quot;))    ///
+     (scatter y x if x==3 &amp; y==3, msymbol(square) msize(18) mc(&quot;`color33&#39;&quot;)),   ///
+   xlabel(0 4) ylabel(0 4) aspect(1)  legend(off)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig21.png" alt="img"></p>
+<p>然后我们用循环的方法来快速填充其余的方格：</p>
+<pre><code>* 填充颜色
+levelsof x, local(xlvl) 
+levelsof y, local(ylvl)
+local boxes
+foreach x of local xlvl &#123;
+     foreach y of local ylvl &#123;
+         local boxes `boxes&#39; (scatter y x if x==`x&#39; &amp; y==`y&#39;, msymbol(square) ///
+           msize(19) mc(&quot;`color`x&#39;`y&#39;&#39;&quot;)) 
+    &#125;
+ &#125;
+cap drop spike*
+gen spike1_x1  = 0.2 in 1
+gen spike1_x2  = 3.6 in 1 
+gen spike1_y1  = 0.2 in 1 
+gen spike1_y2  = 0.2 in 1 
+gen spike1_m   = &quot;More African Americans&quot;   
+gen spike2_y1  = 0.2 in 1
+gen spike2_y2  = 3.2 in 1 
+gen spike2_x1  = 0.2 in 1  
+gen spike2_x2  = 0.2 in 1  
+gen spike2_m   = &quot;More Hispanics&quot;
+twoway `boxes&#39; (pcarrow spike1_y1 spike1_x1 spike1_y2 spike1_x2, lcolor(gs12) lw(thin)   ///   mcolor(gs12) mlabel(spike1_m) mlabpos(7) headlabel) (pcarrow spike2_y1 spike2_x1    ///    spike2_y2 spike2_x2, lcolor(gs12) lw(thin) mcolor(gs12) mlabel(spike2_m) mlabpos(10) ///   headlabel mlabangle(90) mlabgap(1.8)), xlabel(0 4) ylabel(0 4) aspect(1) legend(off)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig22.png" alt="img"></p>
+<p>接下来将这张图的尺寸缩小以匹配我们之前绘制的地图，同时删掉原来的坐标轴和格点：</p>
+<pre><code>colorpalette #e8e8e8 #dfb0d6 #be64ac #ace4e4 #a5add3 #8c62aa #5ac8c8 #5698b9 #3b4994, nograph 
+return list
+local color11 `r(p1)&#39;
+local color12 `r(p2)&#39;
+local color13 `r(p3)&#39;
+local color21 `r(p4)&#39;
+local color22 `r(p5)&#39;
+local color23 `r(p6)&#39;
+local color31 `r(p7)&#39;
+local color32 `r(p8)&#39;
+local color33 `r(p9)&#39;
+levelsof x, local(xlvl) 
+levelsof y, local(ylvl)
+local boxes
+foreach x of local xlvl &#123;
+     foreach y of local ylvl &#123;
+        local boxes `boxes&#39; (scatter y x if x==`x&#39; &amp; y==`y&#39;, msymbol(square) msize(5) ///
+           mc(&quot;`color`x&#39;`y&#39;&#39;&quot;))
+     &#125;
+ &#125;
+twoway `boxes&#39; (pcarrow spike1_y1 spike1_x1 spike1_y2 spike1_x2, lw(thin)   ///              lcolor(gs12)  mcolor(gs12) mlabel(spike1_m) mlabpos(7 ) msize(0.8) headlabel ///            mlabsize(2)) (pcarrow spike2_y1 spike2_x1 spike2_y2 spike2_x2, lw(thin) ///
+    lcolor(gs12) mcolor(gs12)  mlabel(spike2_m) mlabpos(10) msize(0.8) headlabel ///         mlabangle(90) mlabgap(1.8)  mlabsize(2)), xlabel(0 4, nogrid) ylabel(0 4, nogrid) ///
+    aspectratio(1) xsize(1) ysize(1)  fxsize(20) fysize(100) legend(off) ytitle(&quot;&quot;) ///
+    xtitle(&quot;&quot;) xscale(off) yscale(off) name(bivar_legend, replace)
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig23.png" alt="img"></p>
+<p>最后我们将地图和这张小图例合在一起：</p>
+<pre><code> * 合并两张图
+graph combine bivar_map bivar_legend, imargin(zero) ///
+       title(&quot;&#123;fontface Arial Bold:Share of African Americans and Hispanics in the USA&#125;&quot;,        size(4.5)) ///
+       note(&quot;Source of data, and county and state layers: United States Census Bureau.&quot;, size(2))
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig24.png" alt="img"></p>
+<p> </p>
+<h2 id="6-中国地图"><a href="#6-中国地图" class="headerlink" title="6. 中国地图"></a>6. 中国地图</h2><pre><code>set scheme white_tableau                  // 设置绘图模板
+cap spshape2dta 省级数据
+/*
+这条命令可以将 dbf 和 shp 格式的地图文件转为两个 dta 格式的文件，分别以省级数据.dta 
+和省级数据_shp.dta命名，其中后者省级数据_shp.dta为坐标数据，前者省级数据.dta为标签数据，
+在绘制地图时，我们主要是通过标签数据中的 ID 变量连接 (合并) 地图数据和作图数据
+*/
+
+* 绘制一维地图
+import excel 北京大学数字普惠金融指数.xlsx,firstrow sheet(Provinces) clear
+
+// 使用总的数字金融普惠指数
+collapse (mean) index_aggregate, by(prov_name)
+drop in 1
+save 普惠金融指数.dta,replace
+ren prov_name name
+merge 1:1 name using &quot;省级数据.dta&quot;
+// drop in 32 // 由于北大普惠指数没有考虑香港、澳门、台湾，因此这些地区的数据缺失
+drop _merge
+spmap index_aggregate using 省级数据_shp, id(_ID) fcolor(Blues)  mocolor(black) mosize(0.1)
+
+* 二维地图
+import excel 北京大学数字普惠金融指数.xlsx, firstrow sheet(Provinces) clear
+collapse (mean) coverage_breadth usage_depth, by(prov_name)
+drop in 1
+save 数字金融广度和深度.dta,replace
+ren prov_name name
+merge 1:1 name using &quot;省级数据.dta&quot;
+
+// drop in 32
+drop _merge
+xtile xtile_coverage = coverage_breadth, n(3) 
+xtile xtile_usage = usage_depth, n(3)
+sort xtile_coverage xtile_usage
+cap drop xtile2
+egen xtile2 = group(xtile_coverage xtile_usage)
+
+// map with new color scheme
+colorpalette #c8b35a #b0d5df #64acbe #e4acac #ad9ea5 #627f8c #c85a5a #985356 #574249, nograph 
+local colors `r(p)&#39;
+spmap xtile2 using 省级数据_shp, id(_ID) clm(unique)  fcolor(&quot;`colors&#39;&quot;) ///
+    ocolor(black ..) osize(0.02 ..) /// 
+    ndfcolor(gs14) ndocolor(gs6 ..) ndsize(0.03 ..) ndlabel(&quot;No data&quot;)   ///
+    polygon(data(&quot;省级数据_shp&quot;) ocolor(black) osize(0.12) )             ///
+    legend(off) name(bivar_map2, replace) mosize(vvvthick)
+
+// legend with new color scheme
+clear
+set obs 9
+egen y = seq(), b(3)  
+egen x = seq(), t(3)
+cap drop spike*
+gen spike1_x1  = 0.2 in 1
+gen spike1_x2  = 3.6 in 1 
+gen spike1_y1  = 0.2 in 1 
+gen spike1_y2  = 0.2 in 1 
+gen spike1_m   = &quot;数字普惠广度更强&quot;   
+gen spike2_y1  = 0.2 in 1
+gen spike2_y2  = 3.2 in 1 
+gen spike2_x1  = 0.2 in 1  
+gen spike2_x2  = 0.2 in 1  
+gen spike2_m   = &quot;数字普惠深度更强&quot;
+colorpalette #c8b35a #b0d5df #64acbe #e4acac #ad9ea5 #627f8c #c85a5a #985356 #574249, nograph
+
+local color11 `r(p1)&#39;
+local color12 `r(p2)&#39;
+local color13 `r(p3)&#39;
+local color21 `r(p4)&#39;
+local color22 `r(p5)&#39;
+local color23 `r(p6)&#39;
+local color31 `r(p7)&#39;
+local color32 `r(p8)&#39;
+local color33 `r(p9)&#39; 
+
+levelsof x, local(xlvl) 
+levelsof y, local(ylvl)
+local boxes
+foreach x of local xlvl &#123;
+    foreach y of local ylvl &#123;
+        local boxes `boxes&#39; (scatter y x if x==`x&#39; &amp; y==`y&#39;, msymbol(square)  ///
+            msize(5) mc(&quot;`color`x&#39;`y&#39;&#39;&quot;))
+    &#125;
+&#125;
+
+twoway`boxes&#39; (pcarrow spike1_y1 spike1_x1 spike1_y2 spike1_x2, lw(thin)        ///
+    lcolor(gs12) mcolor(gs12) mlabel(spike1_m) mlabpos(7) msize(0.8)            ///
+    headlabel mlabsize(2)) (pcarrow spike2_y1 spike2_x1 spike2_y2 spike2_x2,    ///
+    lw(thin) lcolor(gs12) mcolor(gs12) mlabel(spike2_m) mlabpos(10) msize(0.8)  ///
+    headlabel mlabangle(90) mlabgap(1.8) mlabsize(2)), xlabel(0 4, nogrid)      ///
+    ylabel(0 4, nogrid) aspectratio(1) xsize(1) ysize(1) fxsize(20) fysize(100) ///
+    legend(off) ytitle(&quot;&quot;) xtitle(&quot;&quot;) xscale(off) yscale(off)                   ///
+    name(bivar_legend2, replace)
+
+// combine the two graphs
+graph combine bivar_map2 bivar_legend2, imargin(zero) ///
+    title(&quot;&#123;fontface Arial Bold:中国数字普惠金融的广度和深度&#125;&quot;, size(4.5)) ///
+    subtitle(&quot;Colors defined by tercile cut-offs of digital finance extent in pronvinces of China&quot;, size(2.8)) ///
+    note(&quot;郭峰等. 测度中国数字普惠金融发展: 指数编制与空间特征[J]. 经济学 (季刊), 2020, 19(4): 1401-1418.&quot;,    ///
+    size(2))
+</code></pre><p><img src="/images/空间计量二维地图_陈卓然_Fig25.png" alt="img"></p>
+<p> </p>
+<h2 id="空间计量之用-spmap-绘制地图"><a href="#空间计量之用-spmap-绘制地图" class="headerlink" title="空间计量之用 spmap 绘制地图"></a>空间计量之用 spmap 绘制地图</h2><p>在绘制地图时，大家可能会推荐 <strong>ArcGIS</strong> 等专业软件。然而，对于习惯使用 Stata 的用户而言，若数据管理、数据分析、绘图等各方面都能在 Stata 实现，那就太棒了！Stata 的绘图功能日益强大，能满足大多数可视化需求。现在，Stata 能通过外部命令 <code>spmap</code> 绘制出各式各样的地图，如下图所示：</p>
+<p><img src="/images/v2-2d648ddbfdbab0abe4d80bb9b98077cb_1440w.webp" alt="img"></p>
+<p>本文将详细介绍如何使用 <code>spmap</code> 命令绘制各种常用的地图。</p>
+<h2 id="1-命令简介"><a href="#1-命令简介" class="headerlink" title="1. 命令简介"></a>1. 命令简介</h2><p>外部命令 <code>spmap</code> (Pisati, 2007) 的前身为 <code>tmap</code> (Pisati, 2004)。Stata 15 版本的官方命令 <code>grmap</code> 改编自 <code>spmap</code>。相较 <code>spmap</code>， <code>grmap</code> 改动不大，但只用于空间数据 (spset data)。</p>
+<p>由于篇幅有限，本推文只介绍 <code>spmap</code>。由于其命令的选项 (options) 较复杂，我们先熟悉绘制地图的一般步骤；再进一步了解其语法结构。</p>
+<h3 id="1-1-绘制步骤"><a href="#1-1-绘制步骤" class="headerlink" title="1.1 绘制步骤"></a>1.1 绘制步骤</h3><p>参考 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/[https://www.stata.com/support/faqs/graphics/spmap-and-maps/](https://www.stata.com/support/faqs/graphics/spmap-and-maps/">「Stata 官网提供的 FAQ」</a>)，绘制地图的一般步骤如下：</p>
+<h3 id="第一步：下载三个外部命令：spmap-shp2dta-mif2dta"><a href="#第一步：下载三个外部命令：spmap-shp2dta-mif2dta" class="headerlink" title="第一步：下载三个外部命令：spmap | shp2dta | mif2dta"></a>第一步：下载三个外部命令：spmap | shp2dta | mif2dta</h3><pre class=" language-lang-text"><code class="language-lang-text">*-Step 1: Obtain and install the spmap, shp2dta, and mif2dta commands
+// 画地图的外部命令
+ssc install spmap, replace 
+// 将外部的 dbf 文件和 shp 文件转化为 dta 文件  
+ssc install shp2dta, replace  
+// 将外部的 mif 文件和 mid 文件转化为 dta 文件
+ssc install mif2dta, replace 
+* 获得帮助文件
+help spmap 
+help shp2dta
+help mif2dta
+</code></pre>
+<h3 id="第二步：下载描绘地图的矢量数据文件"><a href="#第二步：下载描绘地图的矢量数据文件" class="headerlink" title="第二步：下载描绘地图的矢量数据文件"></a>第二步：下载描绘地图的矢量数据文件</h3><p>绘制地图时，一般需要两份数据：标签数据 (比如 ID 变量) 和地理坐标数据。对于后者，则有两种常用的矢量数据存储格式： <strong>ESRI shapefile</strong> （简称 shapefile）或 <strong>MapInfo Interchange Format</strong>。具体说明如下：</p>
+<ul>
+<li><a href="https://link.zhihu.com/?target=https%3A//baike.baidu.com/item/shapefile%E6%96%87%E4%BB%B6/11041662%3Ffr%3Daladdin">ESRI shapefile </a>是<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/[https://www.esri.com/zh-cn/home](https://www.esri.com/zh-cn/home">美国环境系统研究所公司 (ESRI)</a>) 开发的一种空间数据开放格式，用于存储地理要素的位置、形状和属性。Shapefile 通常有一个 .zip 压缩文件，包含多个文件，其中必须包括以下三个基本文件：</li>
+<li><strong>主文件 (*.shp)：</strong> 存储几何要素的的空间信息，也就是 XY 坐标。</li>
+<li><strong>索引文件 (*.shx)：</strong> 存储有关 <em>.shp 存储的索引信息。它记录了在 </em>.shp 中，空间数据是如何存储的，XY 坐标的输入点在哪里，有多少 XY 坐标对等信息。</li>
+<li><strong>表文件 (*.dbf)：</strong> 存储地理数据的属性信息的 dBase 表。</li>
+</ul>
+<p>用 Stata 绘制地图时，我们只需要 <strong>shape (*.shp)</strong> 和 <strong>dBase (*.dbf)</strong> 两个文件。 <strong>shp2dta</strong> 命令能帮助我们分别将这两个文件转成 Stata 专属的 <strong>.dta</strong> 格式的数据。</p>
+<ul>
+<li><a href="https://link.zhihu.com/?target=https%3A//baike.baidu.com/item/MIF/1416600%3Ffr%3Daladdin">MapInfo Interchange Format </a>是美国公司<a href="https://link.zhihu.com/?target=https%3A//www.pitneybowes.com/us/location-intelligence/geographic-information-systems/mapinfo-pro.html"> MapInfo </a>开发的通用数据交换格式。这种格式是 ASCⅡ 码，可以编辑，易于生成，且可以工作在 MapInfo 支持的所有平台上。它将 MapInfo 数据保存于以下两个文件：</li>
+<li><strong>*.mif 文件：</strong> 存储图形数据，可理解为 XY 坐标。</li>
+<li><strong>*.mid 文件：</strong> 存储文本（属性）数据。</li>
+</ul>
+<p>用 Stata 绘制地图时， <code>mif2dta</code> 命令能帮助我们分别将 <strong>*.mif</strong> 和 <strong>*.mid</strong> 文件转成 Stata 专属的 <strong>.dta</strong> 格式的数据。</p>
+<blockquote>
+<p><strong>Stata 范例：</strong><br>Shapefiles 包含多种类型（比如，Polygon, Point, Polyine。）在绘制地图底图时，推荐使用 <strong>polygon shapefile</strong>。 一般地，ESRI shapefile 比 MapInfo Interchange Format 更易获得。我们可以在搜索引擎上获得 shapefiles。<br>本例子中，我们使用美国地图 shapefile 数据。获得 shapefile 文件步骤如下： </p>
+<ul>
+<li>在 <a href="https://link.zhihu.com/?target=https%3A//www.google.com.hk/">谷歌</a> 或 <a href="https://link.zhihu.com/?target=https%3A//www.google.com.hk/">雅虎</a> 上搜 “United States shapefile” </li>
+<li>在搜索结果中找到 <a href="https://link.zhihu.com/?target=https%3A//www.weather.gov/gis/USStates">https://www.weather.gov/gis/USStates</a> </li>
+<li>下载 <a href="https://link.zhihu.com/?target=https%3A//www.weather.gov/source/gis/Shapefiles/County/s_11au16.zip">s_11au16.zip</a> （注：文件名会随数据的更新而改变。） </li>
+<li>解压文件，我们只需两个文件：<strong>s_11au16.shp</strong> 和 <strong>s_11au16.dbf</strong><br>更详细的操作介绍见下图：</li>
+</ul>
+</blockquote>
+<p><img src="/images/v2-dc5a5cd60e8bd35cf870aeafa13942ee_1440w.webp" alt="img"></p>
+<h3 id="第三步：将地图的矢量数据文件转成-Stata-格式数据文件"><a href="#第三步：将地图的矢量数据文件转成-Stata-格式数据文件" class="headerlink" title="第三步：将地图的矢量数据文件转成 Stata 格式数据文件"></a>第三步：将地图的矢量数据文件转成 Stata 格式数据文件</h3><p>利用命令 <code>shp2dta</code> 或 <code>mif2dta</code> 将地图的矢量数据文件转成 Stata .dta 格式的数据。 检查 .dbf (.mid) 文件经转换后对应的 .dta 数据。该数据为标签数据，包含 <strong>ID</strong> 变量（命名为 id），不同 <strong>id</strong> 对应不同区域划分。我们应该了解地图矢量数据的提供者是如何划分区域的。比如，在一份数据中， id=1 对应 Alaska，id=2 对应 Alabama；而在另一份数据中，id=1 对应 Albania，id=2 对应 Argentina。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">*-Step 3: Translate the files
+* note:将数据放在当前工作路径
+shp2dta using s_11au16, database(usdb) coordinates(uscoord) genid(id)
+</code></pre>
+<blockquote>
+<p>关于代码的一些说明： </p>
+<ul>
+<li><code>database(usdb)</code> 将 database file 转换成 usdb.dta； </li>
+<li><code>coordinates(uscoord)</code> 将 coordinate file 转换成 uscoord.dta； </li>
+<li><code>genid(id)</code> 将 usdb.dta 中的 ID 变量命名为 id;</li>
+<li>转换 MapInfo files 时，语法一致，只需将 shp2dta 换成 mif2dta。 </li>
+<li>转换后的两个 .dta 文件如下：</li>
+</ul>
+</blockquote>
+<p><img src="/images/v2-c649711dd06141c60864052ad6216855_1440w.webp" alt="img"></p>
+<h3 id="第四步：将作图所需数据文件转换成-Stata-格式文件"><a href="#第四步：将作图所需数据文件转换成-Stata-格式文件" class="headerlink" title="第四步：将作图所需数据文件转换成 Stata 格式文件"></a>第四步：将作图所需数据文件转换成 Stata 格式文件</h3><p>具体而言，将我们需要作图的数据（attribute variable，比如，某年的人口数据）转换成 Stata 格式的 .dta 数据。</p>
+<p>在绘制地图时，我们主要是通过标签数据中的 <strong>ID</strong> 变量连接（合并）地图数据和作图数据。我们需要保证不同数据中的 <strong>ID</strong> 变量对应的区域划分是一致的。</p>
+<blockquote>
+<p>本例中，我们作图的数据为美国各州 1990 年的人口数据：<a href="https://link.zhihu.com/?target=https%3A//www.stata.com/support/faqs/graphics/spmap/stats.dta">stats.dta</a>。 由于 stats.dta 中各州的 ID 变量为 <strong>scode</strong> ，与 usdb.dta 中的 ID 变量 <strong>id</strong> 编码不一致，我们生成一个中间文件 <a href="https://link.zhihu.com/?target=https%3A//www.stata.com/support/faqs/graphics/spmap/trans.dta">trans.dta</a>，将 <strong>scode</strong> 与 <strong>id</strong> 对应起来。</p>
+</blockquote>
+<pre class=" language-lang-text"><code class="language-lang-text">*-Step 4: Determine the coding used by the map
+* note:将数据放在当前工作路径
+use stats, clear
+
+merge 1:1 scode using trans
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                             0
+    matched                                51  (_merge==3)
+    -----------------------------------------
+
+drop _merge
+*仔细检查合并的结果，确认无误后可删掉 _merge
+*- _merge 变量的含义：
+* _merge==1 obs. from master data
+* _merge==2 obs. from only one using dataset
+* _merge==3 obs. from at least two datasets, master or using
+</code></pre>
+<h3 id="第五步：数据合并"><a href="#第五步：数据合并" class="headerlink" title="第五步：数据合并"></a>第五步：数据合并</h3><p>将 .dbf (.mid) 文件经转换后对应的 .dta 数据与我们需要作图的 .dta 数据进行合并。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">*-Step 5: Merge datasets
+* note:将数据放在当前工作路径
+merge 1:1 id using usdb
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                             6
+        from master                         0  (_merge==1)
+        from using                          6  (_merge==2)
+
+    matched                                51  (_merge==3)
+    -----------------------------------------
+
+drop if _merge!=3
+(6 observations deleted)
+drop _merge
+*仔细检查合并的结果，确定无误后可删掉多余观测值
+
+ ```
+</code></pre>
+<h4 id="第六步：用-spmap-命令绘图"><a href="#第六步：用-spmap-命令绘图" class="headerlink" title="第六步：用 spmap 命令绘图"></a>第六步：用 spmap 命令绘图</h4><p> 最后一步啦！可以用 <code>spmap</code> 命令进行画图！show your data!</p>
+<pre class=" language-lang-stata"><code class="language-lang-stata">*-Step 6: Draw the graph
+
+* 图1：不完美示范
+spmap pop1990 using uscoord, id(id) fcolor(Blues)
+
+* 图2：进一步美化
+replace pop1990 = pop1990/1e+6
+* 改变单位，避免图例里显示的数字过大
+format pop1990 %4.2f
+* 变量数据格式（整数与小数部分长度）
+
+spmap pop1990 using uscoord ///
+if id !=1  & id !=54 & ///
+    id !=39 & id !=56, ///
+id(id) fcolor(Blues)
+</code></pre>
+<blockquote>
+<p>关于代码的一些说明：</p>
+<ul>
+<li><strong>pop1990</strong> 是我们作图的数据（1990 年美国各州人口数据）。</li>
+<li><strong>using uscoord</strong> 是必填项。绘制地图地图时，必需坐标数据（本例子中坐标数据为 uscoord.dta）。 - <strong>id(id)</strong> 是必填项。 绘制地图地图时，必需不同区域划分的 ID 变量（本例子中命名为 id）。 </li>
+<li><strong>fcolor(Blues)</strong> 是可选项，设置专题地图 (Choropleth map) 的填充颜色。本例中选用 Blues 主题，即以蓝色为主题色，不同区域会根据作图数据（本例中为人口数据）大小填充深浅不同的颜色。</li>
+<li><strong>clnumber(#)</strong> 是可选项，设置分组数。<code>spmap</code> 默认基于分位数，将作图数据（本例中为人口数据）分为四组；若要自定义组数，则可加上该选项。 </li>
+<li><strong>if</strong> 命令的使用：本例中使用 <code>if</code> 去掉四个州，是因为这四个州分布过于分散，画出的图不美观。 </li>
+<li>两幅图的对比如下：</li>
+</ul>
+</blockquote>
+<p><img src="/images/v2-bf1262dc5d930070fa324336f813fabf_1440w.webp" alt="img"></p>
+<h3 id="1-2-命令的语法"><a href="#1-2-命令的语法" class="headerlink" title="1.2 命令的语法"></a>1.2 命令的语法</h3><p>该命令的基本语法如下：</p>
+<pre class=" language-lang-text"><code class="language-lang-text">spmap [attribute] [if] [in] using basemap [,
+            basemap_options
+            polygon(polygon_suboptions)
+            line(line_suboptions)
+            point(point_suboptions)
+            diagram(diagram_suboptions)
+            arrow(arrow_suboptions)
+            label(label_suboptions)
+            scalebar(scalebar_suboptions)
+            graph_options]
+</code></pre>
+<p>主要可选项说明如下：</p>
+<ul>
+<li><code>basemap_options</code> 设置地图底图。</li>
+<li>其中最重要的选项为 id(idvar)。该选项必须加上，用来识别不同区域划分的 ID 变量 idvar。</li>
+<li>其他选项用来控制底图的四个方面： Cartogram（比如背景色）, Choropleth map（比如将作图数据分为几组）, Format（比如填充颜色）, Legend（比如是否显示图例）。</li>
+<li><code>polygon(polygon_suboptions)</code> 在底图基础上添加其他多边形。</li>
+<li><code>line(line_suboptions)</code> 在底图基础上添加线条。</li>
+<li><code>point(point_suboptions)</code> 在底图基础上添加点。</li>
+<li><code>diagram(diagram_suboptions)</code> 在底图基础上添加条形/扇形统计图。</li>
+<li><code>arrow(arrow_suboptions)</code> 在底图基础上添加箭头。</li>
+<li><code>label(label_suboptions)</code> 在底图基础上添加文字标签。</li>
+<li><code>scalebar(scalebar_suboptions)</code> 设置比例尺。</li>
+<li><code>graph_options</code> 与我们常规画图的选项 (<code>twoway_options</code>) 基本一致。</li>
+<li><code>help spmap</code> 获得更多详细信息。</li>
+</ul>
+<h2 id="2-Stata-范例"><a href="#2-Stata-范例" class="headerlink" title="2. Stata 范例"></a>2. Stata 范例</h2><p>目前，我们已经熟悉了绘制地图的一般步骤和语法结构。接下来我们将结合具体的例子进一步掌握 <code>spmap</code> 的使用方法。本节 2.2-2.4 的例子均来自 <code>help spmap</code> 帮助文件。官方提供的数据集可通过下述方式获得： <code>net get spmap.pkg, from(http://fmwww.bc.edu/RePEc/bocode/s)</code></p>
+<h3 id="2-1-如何获得地图的矢量数据文件？"><a href="#2-1-如何获得地图的矢量数据文件？" class="headerlink" title="2.1 如何获得地图的矢量数据文件？"></a>2.1 如何获得地图的矢量数据文件？</h3><p>用 Stata 绘制地图至少需要两份数据：带有标签 (比如 ID 变量) 的数据和地理坐标数据。在 <code>spmap</code> 中，标签数据被称为 “master” dataset，地理坐标数据被称为 “basemap” dataset。</p>
+<p>因此，我们绘图前必须先下载地图的矢量数据文件。若能直接下载 .dta 格式文件，则无需转换格式；若只能下载 <strong>shapefile</strong> （或 <strong>MapInfo Interchange Format</strong>） 格式的文件，则需用 <code>shp2dta</code> （或 <code>mif2dta</code> ）将其转成 .dta 格式。</p>
+<blockquote>
+<p>获得途径总结如下：</p>
+<ul>
+<li>在搜索引擎上搜索关键词，比如 “中国地图 shapefile”。</li>
+<li>在 <a href="https://link.zhihu.com/?target=https%3A//gadm.org/data.html">GADM</a> 网站上下载 shapefile 文件。该网站提供世界及世界各国的地图数据。 </li>
+<li>利用 Stata 命令，如下：</li>
+</ul>
+</blockquote>
+<pre class=" language-lang-text"><code class="language-lang-text">*-获得中国地图数据
+copy "http://fmwww.bc.edu/repec/bocode/c/china_map.zip" china_map.zip, replace
+unzipfile china_map, replace  // 解压压缩文件
+
+*-获得世界地图数据
+use  "http://fmwww.bc.edu/repec/bocode/w/world-c.dta",clear
+save world-c.dta
+use  "http://fmwww.bc.edu/repec/bocode/w/world-d.dta",clear   
+save world-d.dta
+</code></pre>
+<p>获得数据后，我们可利用 <code>scatter</code> 检查数据，看地图轮廓是否满足要求。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "china_map.dta", clear
+scatter _Y _X, msize(vtiny)
+</code></pre>
+<p><img src="/images/v2-7c1f63e697c63c0424782d58305932d0_1440w.webp" alt="img"></p>
+<h3 id="2-2-Stata-范例-1-Choropleth-maps"><a href="#2-2-Stata-范例-1-Choropleth-maps" class="headerlink" title="2.2 Stata 范例 1: Choropleth maps"></a>2.2 Stata 范例 1: Choropleth maps</h3><p>Choropleth map 可翻译为 <strong><a href="https://link.zhihu.com/?target=http%3A//antv.alipay.com/zh-cn/vis/chart/choropleth-map.html">分级统计地图</a></strong>。在这种地图中，每个区域以不同深浅度的颜色表示数据变量。此法因常用色级表示，所以也叫色级统计图法。我们可简单理解为 “<strong>地图+热力：颜色渐变常见</strong>“。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap relig1 using "Italy-RegionsCoordinates.dta", id(id)         
+  title("Pct. Catholics without reservations", size(*0.8))      
+  subtitle("Italy, 1994-98" " ", size(*0.8));  
+#d cr
+</code></pre>
+<p><img src="/images/v2-e7ec19cdbf5e20ad37408becd9a6bd53_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap relig1m using "Italy-RegionsCoordinates.dta", id(id)  
+  ndfcolor(red)         
+  clmethod(eqint) clnumber(5) eirange(20 70)                      
+  title("Pct. Catholics without reservations", size(*0.8))         
+  subtitle("Italy, 1994-98" " ", size(*0.8))                       
+  legstyle(2) legend(region(lcolor(black)));                        
+#d cr
+</code></pre>
+<p><img src="/images/v2-0b23a37eee09404a4642571a365cbbbb_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap relig1 using "Italy-RegionsCoordinates.dta", id(id)         
+  clnumber(20) fcolor(Reds2) ocolor(none ..)                       
+  title("Pct. Catholics without reservations", size(*0.8))         
+  subtitle("Italy, 1994-98" " ", size(*0.8))                       
+  legstyle(3) legend(ring(1) position(3));   
+#d cr
+</code></pre>
+<p><img src="/images/v2-3b235a0ac24b6895928b0dab80cab0d8_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap relig1 using "Italy-RegionsCoordinates.dta", id(id)          
+clnumber(20) fcolor(Greens2) ocolor(white ..) osize(thin ..)     
+title("Pct. Catholics without reservations", size(*0.8))         
+subtitle("Italy, 1994-98" " ", size(*0.8))                       
+legstyle(3) legend(ring(1) position(3))                         
+plotregion(icolor(stone)) graphregion(icolor(stone))             
+polygon(data("Italy-Highlights.dta") ocolor(white)               
+osize(medthick))
+scalebar(units(500) scale(1/1000) xpos(-100) label(Kilometers));
+#d cr
+</code></pre>
+<p><img src="/images/v2-3f7dce5ebf796c53fead779c2f237016_1440w.jpeg" alt="img"></p>
+<blockquote>
+<p>关于代码的一些说明：</p>
+</blockquote>
+<ul>
+<li>官方直接提供了 dta 文件，所以我们在绘制地图时省略 <code>shp2dta</code> 或 <code>mif2dta</code> 转换地图矢量数据文件的步骤。</li>
+<li><code>ndfcolor(red)</code> 用红色表示缺失数据区域。</li>
+<li><code>clmethod(...)</code> 设置作图数据分组方式，默认是根据分位数分为 4 组。</li>
+<li>括号里可选填 quantile, boxplot, eqint, stdev, kmeans, custom, unique。</li>
+<li><code>clmethod(eqint) clnumber(5) eirange(20 70)</code>：将作图数据按 20-70 范围等分为 5 组。</li>
+<li><code>clunmber(#)</code> 设置分组数。</li>
+<li><code>legstyle(#)</code> 设置图例显示模式，默认为 1，可选 2,3。</li>
+<li>1 显示为 (num,num]；2 显示为 num-num；3 为色卡。</li>
+<li><code>legend(...)</code> 设置图例是否带框线、摆放位置等。</li>
+<li><code>fcolor(...)</code> 设置填充颜色。</li>
+<li><code>icolor(...)</code> 设置背景色。</li>
+<li><code>ocolor(...)</code> 设置区域边界颜色。</li>
+<li><code>osize(...)</code> 设置区域边界线宽度。</li>
+<li><code>polygon(...)</code> 在底图 (basemap) 上添加其他多边形。</li>
+<li><code>scalebar(...)</code> 设置比例尺。</li>
+</ul>
+<h3 id="2-3-Stata-范例-2-Proportional-symbol-maps"><a href="#2-3-Stata-范例-2-Proportional-symbol-maps" class="headerlink" title="2.3 Stata 范例 2: Proportional symbol maps"></a>2.3 Stata 范例 2: Proportional symbol maps</h3><p>Proportional symbol map 可理解为 <strong><a href="https://link.zhihu.com/?target=http%3A//antv.alipay.com/zh-cn/vis/chart/bubble-map.html">带气泡的地图 (Bubble Map)</a></strong>。在这种地图中，气泡的面积代表了这个数据的大小。我们可简单理解为 “<strong>地图+气泡：圆越大数越大</strong>“。</p>
+<p>我们可以通过添加选项 <code>point(... proportional(propvar_pn) ...)</code> 完成带气泡的地图。若我们想将气泡（圆）变成其他符号（比如为正方形），可在里面添加子选项 <code>shape(s)</code>。</p>
+<p>若在该选项中去掉子选项 <code>proportional(propvar_pn)</code>，则该图可退化为 <strong><a href="https://link.zhihu.com/?target=http%3A//antv.alipay.com/zh-cn/vis/chart/dot-map.html">点描法地图 (dot map)</a></strong>，即气泡变为大小相等的点。我们可简单理解为 “<strong>地图+点：哪里有数点哪里</strong>“。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-OutlineData.dta", clear
+#d;
+spmap using "Italy-OutlineCoordinates.dta", id(id)                 
+title("Pct. Catholics without reservations", size(*0.8))        
+subtitle("Italy, 1994-98" " ", size(*0.8))                      
+point(data("Italy-RegionsData.dta") xcoord(xcoord)              
+ycoord(ycoord) deviation(relig1) fcolor(red) dmax(30)            
+legenda(on) leglabel(Deviation from the mean));
+#d cr
+</code></pre>
+<p><img src="/images/v2-4c88e9c667f3bea2ad838959e1ef6ddf_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-OutlineData.dta", clear
+#d;
+spmap using "Italy-OutlineCoordinates.dta", id(id)                 
+title("Pct. Catholics without reservations", size(*0.8))         
+subtitle("Italy, 1994-98" " ", size(*0.8))                       
+point(data("Italy-RegionsData.dta") xcoord(xcoord)               
+ycoord(ycoord) proportional(relig1) fcolor(green)                  
+ocolor(white) size(*3))                                          
+label(data("Italy-RegionsData.dta") xcoord(xcoord)               
+ycoord(ycoord) label(relig1) color(white) size(*0.7));
+#d cr
+</code></pre>
+<p><img src="/images/v2-5fe273f65dffdf8b00b90dfe8e99ab33_1440w.webp" alt="img"></p>
+<blockquote>
+<p>关于代码的一些说明： </p>
+<ul>
+<li>point(…)<code>在底图 (basemap) 上添加点。</code></li>
+<li><code>label(...)</code> 在底图 (basemap) 上添加标签（比如地名，数字等）。</li>
+</ul>
+</blockquote>
+<h3 id="2-4-Stata-范例-3-Other-maps"><a href="#2-4-Stata-范例-3-Other-maps" class="headerlink" title="2.4 Stata 范例 3: Other maps"></a>2.4 Stata 范例 3: Other maps</h3><p>我们还可以通过 <code>spmap</code> 画其他类型的图，比如在地图上添加条形图/扇形图。</p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap using "Italy-RegionsCoordinates.dta", id(id) fcolor(stone)   
+  title("Pct. Catholics without reservations", size(*0.8))        
+  subtitle("Italy, 1994-98" " ", size(*0.8))                       
+  diagram(variable(relig1) range(0 100) refweight(pop98)          
+  xcoord(xcoord) ycoord(ycoord) fcolor(red));
+#d cr
+</code></pre>
+<p><img src="/images/v2-02b95e1b2abd8f8cf90ba0ebe445994f_1440w.webp" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap using "Italy-RegionsCoordinates.dta", id(id) fcolor(stone)   
+diagram(variable(relig1 relig2 relig3) proportional(fortell)    
+xcoord(xcoord) ycoord(ycoord) legenda(on))                       
+legend(title("Religious orientation", size(*0.5) bexpand        
+justification(left)))                                            
+note(" "                                                         
+"NOTE: Chart size proportional to number of fortune tellers per million population", 
+size(*0.75));
+#d cr
+</code></pre>
+<p><img src="/images/v2-3732194c243e8689ee5bc1ec9a8f7d32_1440w.webp" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-OutlineData.dta", clear
+#d ;
+spmap using "Italy-OutlineCoordinates.dta", id(id) fc(bluishgray)  
+  ocolor(none)                                                     
+  title("Provincial capitals" " ", size(*0.9) color(white))        
+  point(data("Italy-Capitals.dta") xcoord(xcoord)                  
+  ycoord(ycoord) by(size) fcolor(orange red maroon) shape(s ..)    
+  legenda(on))                                                     
+  legend(title("Population 1998", size(*0.5) bexpand               
+  justification(left)) region(lcolor(black) fcolor(white))         
+  position(2))                                                     
+  plotregion(margin(medium) icolor(dknavy) color(dknavy))          
+  graphregion(icolor(dknavy) color(dknavy));
+#d cr
+</code></pre>
+<p><img src="/images/v2-75d2610cb2232ea62ccf01fbc2316df7_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-RegionsData.dta", clear
+#d ;
+spmap relig1 using "Italy-RegionsCoordinates.dta" if zone==1,      
+  id(id) fcolor(Blues2) ocolor(white ..) osize(medthin ..)         
+  title("Pct. Catholics without reservations", size(*0.8))         
+  subtitle("Northern Italy, 1994-98" " ", size(*0.8))              
+  polygon(data("Italy-OutlineCoordinates.dta") fcolor(gs12)        
+  ocolor(white) osize(medthin)) polyfirst;
+#d cr
+</code></pre>
+<p><img src="/images/v2-e506f7bdbf1d41237d5a45f4c0028225_1440w.jpeg" alt="img"></p>
+<pre class=" language-lang-text"><code class="language-lang-text">use "Italy-OutlineData.dta", clear
+#d ;
+spmap using "Italy-OutlineCoordinates.dta", id(id) fc(sand)        
+title("Main lakes and rivers" " ", size(*0.9))                   
+polygon(data("Italy-Lakes.dta") fcolor(blue) ocolor(blue))       
+line(data("Italy-Rivers.dta") color(blue) )                      
+freestyle aspect(1.4) xlab(400000 900000 1400000, grid);
+#d cr
+</code></pre>
+<p><img src="/images/v2-6067fe901b11b4aea9e39ffcec1866a5_1440w.webp" alt="img"></p>
+<blockquote>
+<p>关于代码的一些说明： </p>
+<ul>
+<li><code>polygon(...)</code> 在底图 (basemap) 上添加其他多边形。 </li>
+<li><code>point(...)</code> 在底图 (basemap) 上添加点。 </li>
+<li><code>line(...)</code> 在底图 (basemap) 上添加线条。 </li>
+<li>绘制比较复杂的地图时，常用上述三个命令在底图 (basemap) 上叠加图层。</li>
+</ul>
+</blockquote>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>用 Stata 绘制地图有两个关键点：一是获得地图的矢量数据文件，熟悉数据结构；二是熟悉命令 <code>spmap</code> 的语法结构。</p>
+<h1 id="基于Stata绘制2022年中国34个省域GDP空间分位图的演示"><a href="#基于Stata绘制2022年中国34个省域GDP空间分位图的演示" class="headerlink" title="基于Stata绘制2022年中国34个省域GDP空间分位图的演示"></a>基于Stata绘制2022年中国34个省域GDP空间分位图的演示</h1><p>一、引言</p>
+<p>可以绘制地图的软件除了ArcGIS以外，Stata、SAS等软件也可以。因为ASEF主要基于ArcGIS和Stata做相关研究，所以在特定环境下它更倾向于采用Stata绘制地图。Stata绘制地图的命令有官方命令grmap、非官方命令spmap等。关于spmap命令的演示，ASEF之前做过推文(<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=Mzg2NDE3OTkxMQ==&amp;mid=2247484542&amp;idx=1&amp;sn=9c732145a85e518f530478bc67a79290&amp;chksm=ce6c07d6f91b8ec0b948415649b736eba6621de5f1b893e50bb7e659dbde8cd91bc6b24cbc2d&amp;token=726204196&amp;lang=zh_CN&amp;scene=21#wechat_redirect">基于Stata的ESDA（探索性空间数据分析）代码解析与实操验证</a>)，不再赘述。今天与大家一起学习，如何采用grmap命令绘制规范的中国标准地图。</p>
+<p>二、演示</p>
+<p>下面采用2022年中国34个省域的GDP数据进行空间分位图绘制演示。本演示共有四部分组成：（1）制作填色地图标签文件；（2）制作填色地图的值（本案例中为2022年中国34个省域的GDP）文件；（3）制作指北针文件；（4）绘制2022年中国34个省域GDP空间分位图。</p>
+<p>第一部分为制作填色地图标签文件，程序如下：</p>
+<pre class=" language-lang-stata"><code class="language-lang-stata">clear
+input Y X strL cname strL ename
+2070000 155000 1000km 1000km
+2200000 2480000 南海诸岛 "South China Sea"
+2545645 577264 海南 HAINAN
+2606862 -596605 N N
+2793167 904743 澳门 MACAO SAR
+2924472 1216567 香港 HONG KONG SAR
+3033598 454021 广西 GUANGXI ZHUANGZU ZIZHIQU
+3117659 901401 广东 GUANGDONG
+3147149 -364398 云南 YUNAN
+3171792 1723148 台湾 TAIWAN
+3337393 223839 贵州 GUIZHOU
+3359174 1310984 福建 FUJIAN
+3448290 704352 湖南 HUNAN
+3492625 1055225 江西 JIANGXI
+3716572 273824 重庆 CHONGQING SHI
+3753226 1458284 浙江 ZHEJIANG
+3773471 -212006 四川 SICHUAN
+3846593 688818 湖北 HUBEI
+3994884 1142714 安徽 ANHUI
+3997977 1543993 上海 SHANGHAI SHI
+4038557 -1532343 西藏 XIZANG ZIZHIQU
+4156136 1325927 江苏 JIANGSU
+4174676 780159 河南 HENAN
+4179103 341037 陕西 SHAANXI
+4264787 -22066 甘肃 GANSU
+4381696 -792836 青海 QINGHAI
+4495014 1142137 山东 SHANDONG
+4501152 99684 宁夏 NINGXIA HUIZU ZIZHIQU
+4559114 621816 山西 SHANXI
+4656767 917719 河北 HEBEI
+4800073 1154470 天津 TIANJIN SHI
+4936223 425619 内蒙古 "NEI MOGOL ZIZHIQU"
+4981659 934732 北京 BEIJING SHI
+5093605 1407783 辽宁 LIAONING
+5113455 -1609429 新疆 XINJIANG ZIZHIQU
+5409037 1625827 吉林 JILIN
+5866667 1623938 黑龙江 HEILONGJIANG
+end
+compress
+save 填色地图_标签, replace
+</code></pre>
+<p>第二部分为制作填色地图的值文件，程序如下：</p>
+<pre class=" language-lang-stata"><code class="language-lang-stata">
+clear
+input 省代码 strL 省 ID GDP
+110000 北京 1 4.16
+120000 天津 2 1.63
+130000 河北 3 4.24
+140000 山西 4 2.56
+150000 内蒙古 5 2.32
+210000 辽宁 6 2.9
+220000 吉林 8 1.31
+230000 黑龙江 9 1.59
+310000 上海 10 4.47
+320000 江苏 11 12.29
+330000 浙江 12 7.77
+340000 安徽 13 4.5
+350000 福建 14 5.31
+360000 江西 15 3.21
+370000 山东 16 8.74
+410000 河南 17 6.13
+420000 湖北 18 5.37
+430000 湖南 19 4.87
+440000 广东 20 12.91
+450000 广西 21 2.63
+460000 海南 22 0.68
+500000 重庆市 23 2.91
+510000 四川 24 5.67
+520000 贵州 25 2.02
+530000 云南 26 2.9
+540000 西藏 27 0.21
+610000 陕西 28 3.28
+620000 甘肃 29 1.12
+630000 青海 30 0.36
+640000 宁夏 31 0.51
+650000 新疆 32 1.77
+710000 台湾 33 5.13
+810000 香港 34 2.77
+820000 澳门 35 0.22
+end 
+compress
+save 填色地图_值, replace
+</code></pre>
+<p>第三部分为制作指北针文件，程序如下：</p>
+<pre><code>
+clear
+input _ID _X _Y value
+38 . . 1
+38 -600000 2200000 1
+38 -600000 2500000 1
+38 -500000 2160000 1
+38 -600000 2200000 1
+39 . . 1
+39 -850000 2000000 1
+39 -850000 2080000 1
+39 -600000 2080000 1
+39 -600000 2000000 1
+39 -850000 2000000 1
+39 . . 1
+39 -350000 2000000 1
+39 -350000 2080000 1
+39 -100000 2080000 1
+39 -100000 2000000 1
+39 -350000 2000000 1
+end
+save 填色地图_指北针, replace
+</code></pre><p>第四部分为绘制2022年中国34个省域GDP空间分位图，程序如下：</p>
+<pre class=" language-lang-stata"><code class="language-lang-stata">use 填色地图_值, clear
+grmap GDP using chinaprov40_coord, id(ID) osize(vvthin ...) ocolor(white ...) clmethod(custom) clbreaks(-1 0 0.5 2 3 8 13) \\\
+fcolor(gray "254 237 222" "253 190 133" "253 141 60" "230 85 13" "166 54 3") \\\
+leg(order(2 "No Data" 3 "< 0.5" 4 "0.5～2" 5 "2～3" 6 "3～8" 7 "> 8")) \\\
+graphr(margin(medium)) \\\
+line(data(chinaprov40_line_coord.dta) select(keep if inlist(group, 1, 2, 3, 4, 5, 6)) by(group) size(vvthin *1 *0.5 *1.2 *0.5 *0.5) pattern(solid ...) color(white black "0 85 170" "24 188 156" black black)) \\\
+polygon(data(填色地图_指北针) fcolor(black) osize(vvthin)) \\\
+label(data(填色地图_标签) x(X) y(Y) label(cname) length(20) size(*0.6)) \\\
+ti("2022年中国34个省域GDP空间分位图")
+gr export 填色地图_输出.png, replace width(1200)
+</code></pre>
+<p>成图见图1。图1显示，2022年，广东、江苏、山东的GDP均居于全国前三名。</p>
+<p><img src="/images/640-167818814734983.png" alt="图片"></p>
+<p>图1</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">夏汉林</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/">http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">夏汉林</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Stata/">
+                                    <span class="chip bg-color">Stata</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%94%BB%E5%9B%BE/">
+                                    <span class="chip bg-color">画图</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">谢谢你请我喝咖啡！</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'YUZoeZ4vu74xuMkbrrgHOduF-gzGzoHsz',
+        appKey: 'sJD0LhYYyJ010qBiqIeZb781',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Stata画中国省级地图">
+                        
+                        <span class="card-title">Stata画中国省级地图</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-18
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%AE%9E%E8%AF%81/" class="post-category">
+                                    实证
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Stata/">
+                        <span class="chip bg-color">Stata</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%94%BB%E5%9B%BE/">
+                        <span class="chip bg-color">画图</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/02/17/stata-chang-yong-ming-ling-hui-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="STATA常用命令汇集">
+                        
+                        <span class="card-title">STATA常用命令汇集</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            汇集一些实证中常用的Stata命令，并给出应用例子
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-17
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AE%A1%E9%87%8F/" class="post-category">
+                                    计量
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Stata/">
+                        <span class="chip bg-color">Stata</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%AE%9E%E8%AF%81/">
+                        <span class="chip bg-color">实证</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 夏汉林<br />'
+            + '文章作者: 夏汉林<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2022-2024</span>
+            
+            <span id="year">2022</span>
+            <a href="/about" target="_blank">夏汉林</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2022";
+                    var startMonth = "10";
+                    var startDate = "9";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/xiahanlin1993" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:xiahanlin1993@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=445788441" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 445788441" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"position":"right","width":190,"height":300},"mobile":{"show":true,"react":{"opacity":0.7}}});</script></body>
+
+</html>

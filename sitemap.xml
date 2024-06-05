@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</loc>
+    
+    <lastmod>2024-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/</loc>
+    
+    <lastmod>2024-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/</loc>
+    
+    <lastmod>2023-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/2023/02/17/stata-chang-yong-ming-ling-hui-ji/</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://xiahanlin1993.github.io/2023/02/16/chong-yao-zi-liao-hui-ji-ding-qi-zheng-li/</loc>
     
     <lastmod>2023-02-16</lastmod>
@@ -65,15 +101,6 @@
   </url>
   
   <url>
-    <loc>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</loc>
-    
-    <lastmod>2023-02-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://xiahanlin1993.github.io/2023/02/15/wo-guan-zhu-de-gong-zhong-hao/</loc>
     
     <lastmod>2023-02-14</lastmod>
@@ -113,15 +140,6 @@
     <loc>http://xiahanlin1993.github.io/%E7%A7%91%E7%A0%94%E4%B8%BB%E9%A1%B5/index.html</loc>
     
     <lastmod>2022-10-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/</loc>
-    
-    <lastmod>2022-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +202,7 @@
 
   <url>
     <loc>http://xiahanlin1993.github.io/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -192,133 +210,154 @@
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/DID-PSM-RDD-ML-CI/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/Local-projection/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/VAR/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/SVAR/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/Dynare/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/RBC/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/Matlab/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/DSGE/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/TVAR/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/FAVAR/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/tags/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/tags/Stata/</loc>
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/tags/%E5%AE%9E%E8%AF%81/</loc>
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xiahanlin1993.github.io/tags/%E7%94%BB%E5%9B%BE/</loc>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -327,56 +366,56 @@
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E7%A0%94%E7%A9%B6%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E4%BA%8B%E5%AE%9E/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E7%90%86%E8%AE%BA/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E5%AE%9E%E8%AF%81/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://xiahanlin1993.github.io/categories/%E8%B5%84%E6%96%99/</loc>
-    <lastmod>2023-02-16</lastmod>
+    <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

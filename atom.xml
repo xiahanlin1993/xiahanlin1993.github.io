@@ -6,7 +6,7 @@
   <link href="http://xiahanlin1993.github.io/atom.xml" rel="self"/>
   
   <link href="http://xiahanlin1993.github.io/"/>
-  <updated>2023-02-16T15:29:46.435Z</updated>
+  <updated>2023-03-10T14:04:55.849Z</updated>
   <id>http://xiahanlin1993.github.io/</id>
   
   <author>
@@ -17,11 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Stata画中国省级地图</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/</id>
+    <published>2023-02-18T06:13:10.000Z</published>
+    <updated>2023-03-10T14:04:55.849Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考：&lt;a href=&quot;https://www.bilibili.com/video/BV12L411J7Vt/?vd_source=02b8b2856e40df6b2aacc74fc07e9257&quot;&gt;使用 Stata</summary>
+        
+      
+    
+    
+    
+    <category term="实证" scheme="http://xiahanlin1993.github.io/categories/%E5%AE%9E%E8%AF%81/"/>
+    
+    
+    <category term="Stata" scheme="http://xiahanlin1993.github.io/tags/Stata/"/>
+    
+    <category term="画图" scheme="http://xiahanlin1993.github.io/tags/%E7%94%BB%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STATA常用命令汇集</title>
+    <link href="http://xiahanlin1993.github.io/2023/02/17/stata-chang-yong-ming-ling-hui-ji/"/>
+    <id>http://xiahanlin1993.github.io/2023/02/17/stata-chang-yong-ming-ling-hui-ji/</id>
+    <published>2023-02-17T07:08:17.000Z</published>
+    <updated>2023-02-17T18:00:36.410Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;均值t检验&quot;&gt;&lt;a href=&quot;#均值t检验&quot; class=&quot;headerlink&quot; title=&quot;均值t检验&quot;&gt;&lt;/a&gt;均值t检验&lt;/h4&gt;&lt;p&gt;ttest：即 t tests (mean-comparison</summary>
+        
+      
+    
+    
+    
+    <category term="计量" scheme="http://xiahanlin1993.github.io/categories/%E8%AE%A1%E9%87%8F/"/>
+    
+    
+    <category term="Stata" scheme="http://xiahanlin1993.github.io/tags/Stata/"/>
+    
+    <category term="实证" scheme="http://xiahanlin1993.github.io/tags/%E5%AE%9E%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>重要资料汇集（定期整理）</title>
     <link href="http://xiahanlin1993.github.io/2023/02/16/chong-yao-zi-liao-hui-ji-ding-qi-zheng-li/"/>
     <id>http://xiahanlin1993.github.io/2023/02/16/chong-yao-zi-liao-hui-ji-ding-qi-zheng-li/</id>
     <published>2023-02-16T10:41:06.000Z</published>
-    <updated>2023-02-16T15:29:46.435Z</updated>
+    <updated>2023-02-16T16:07:24.160Z</updated>
     
     
       
@@ -280,7 +334,7 @@
     <link href="http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/"/>
     <id>http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/</id>
     <published>2023-02-14T07:35:59.000Z</published>
-    <updated>2023-02-14T17:26:42.049Z</updated>
+    <updated>2024-06-05T09:56:51.775Z</updated>
     
     
       
@@ -341,7 +395,7 @@
     <link href="http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/"/>
     <id>http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/</id>
     <published>2021-08-19T17:30:32.000Z</published>
-    <updated>2022-10-11T17:48:47.181Z</updated>
+    <updated>2024-06-05T09:41:18.819Z</updated>
     
     
       
