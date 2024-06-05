@@ -1,3 +1,4 @@
+http://xiahanlin1993.github.io/%E7%A7%91%E7%A0%94%E4%B8%BB%E9%A1%B5/index.html
 http://xiahanlin1993.github.io/2021/08/20/ru-he-shi-yong-hexo-gitte-typora-jian-li-ge-ren-bo-ke-wang-zhan/
 http://xiahanlin1993.github.io/2023/02/14/ju-bu-tou-ying-fa/
 http://xiahanlin1993.github.io/2023/02/18/stata-hua-zhong-guo-sheng-ji-di-tu/
@@ -13,7 +14,6 @@ http://xiahanlin1993.github.io/2023/02/15/wo-guan-zhu-de-gong-zhong-hao/
 http://xiahanlin1993.github.io/2023/02/14/svar-mo-xing/
 http://xiahanlin1993.github.io/resource/index.html
 http://xiahanlin1993.github.io/2021/08/24/hong-guan-jin-rong/
-http://xiahanlin1993.github.io/%E7%A7%91%E7%A0%94%E4%B8%BB%E9%A1%B5/index.html
 http://xiahanlin1993.github.io/friends/index.html
 http://xiahanlin1993.github.io/baidu_verify_code-mqNlV1Cmvo.html
 http://xiahanlin1993.github.io/about/index.html
